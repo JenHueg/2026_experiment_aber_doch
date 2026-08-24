@@ -1,17 +1,17 @@
 ﻿list;item;condition;statement;denial;question;answer_A;answer_B;correct_answer
 A;1;a;Hallo, ich bin Bedingung A von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
-A;1;b;Hallo, ich bin Bedingung B von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
-A;1;c;Hallo, ich bin Bedingung C von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
-A;1;d;Hallo, ich bin Bedingung D von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
+B;1;b;Hallo, ich bin Bedingung B von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
+C;1;c;Hallo, ich bin Bedingung C von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
+D;1;d;Hallo, ich bin Bedingung D von Item 1. ;Wow!;Frage eins für Item 1?;diese Antwort (A);jene Antwort (B);A
 B;2;a;Hallo, ich bin Bedingung A von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
-B;2;b;Hallo, ich bin Bedingung B von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
-B;2;c;Hallo, ich bin Bedingung C von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
-B;2;d;Hallo, ich bin Bedingung D von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
+C;2;b;Hallo, ich bin Bedingung B von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
+D;2;c;Hallo, ich bin Bedingung C von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
+A;2;d;Hallo, ich bin Bedingung D von Item 2. ;Super!;Frage eins für Item 2?;diese Antwort (A);jene Antwort (B);B
 C;3;a;Hallo, ich bin Bedingung A von Item 3. ;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
-C;3;b;Hallo, ich bin Bedingung B von Item 3. ;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
-C;3;c;Hallo, ich bin Bedingung C von Item 3.;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
-C;3;d;Hallo, ich bin Bedingung D von Item 3.;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
+D;3;b;Hallo, ich bin Bedingung B von Item 3. ;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
+A;3;c;Hallo, ich bin Bedingung C von Item 3.;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
+B;3;d;Hallo, ich bin Bedingung D von Item 3.;Großartig!;Frage eins für Item 3?;diese Antwort (A);jene Antwort (B);A
 D;4;a;Hallo, ich bin Bedingung A von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B
-D;4;b;Hallo, ich bin Bedingung B von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B
-D;4;c;Hallo, ich bin Bedingung C von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B
-D;4;d;Hallo, ich bin Bedingung D von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B
+A;4;b;Hallo, ich bin Bedingung B von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B
+B;4;c;Hallo, ich bin Bedingung C von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B
+C;4;d;Hallo, ich bin Bedingung D von Item 4.;Klasse!;Frage eins für Item 4?;diese Antwort (A);jene Antwort (B);B

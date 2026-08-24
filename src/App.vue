@@ -112,25 +112,15 @@ export default {
   data() {
 
     return {
-
       page: 'start',
-
       block1: [],
-
       block2: [],
-
       responses: [],
-
       selectedList: '',
-
       totalTrials: 0,
-
       participantID: '',
-
       experimentStartTime: null,
-
       experimentDuration: '',
-
 
       // ==================================================
       // COMPREHENSION TRIALS
@@ -152,27 +142,18 @@ export default {
 
       comprehensionTrials: [],
 
-
       // ==================================================
       // DEMOGRAPHICS
       // ==================================================
 
       demographics: {
-
         age: '',
-
         gender: '',
-
         genderSelfDescription: '',
-
         nativeLanguage: ''
-
       }
-
     }
-
   },
-
 
   // ==================================================
   // METHODS
@@ -180,199 +161,151 @@ export default {
 
   methods: {
 
-
     // ==================================================
-    // EXPERIMENT STARTEN
+    // START EXPERIMENT
     // ==================================================
 
     async startExperiment() {
-
-
-      console.log(
-        '=========================================='
-      )
-
       console.log(
         'START EXPERIMENT'
       )
-
-      console.log(
-        '=========================================='
-      )
-
 
       // ------------------------------------------------
       // Participant ID
       // ------------------------------------------------
 
-      this.participantID =
-        crypto.randomUUID()
-
+      this.participantID = crypto.randomUUID()
 
       // ------------------------------------------------
-      // Startzeit
+      // STARTING TIME
       // ------------------------------------------------
 
       this.experimentStartTime =
         Date.now()
 
-
       // ==================================================
-      // CSV LADEN
+      // LOAD CSV
       // ==================================================
 
       const response =
         await fetch('/stimuli.csv')
 
-
       const csvText =
         await response.text()
 
-
       // ==================================================
-      // CSV PARSEN
+      // PARSE CSV
       // ==================================================
 
       const parsed =
         Papa.parse(csvText, {
-
           header: true,
-
           skipEmptyLines: true
-
         })
 
-
       console.log(
-        'CSV geladen:',
+        'CSV loaded:',
         parsed.data
       )
 
-
       // ==================================================
-      // STIMULI FILTERN
+      // FILTER STIMULI
       // ==================================================
 
       let allStimuli =
         parsed.data.filter(item =>
-
           item.item &&
           item.list &&
           item.statement &&
-          item.denial
-
+          item.denial 
         )
 
-
       console.log(
-        'Anzahl aller Stimuli:',
+        'Stimuli length:',
         allStimuli.length
       )
 
-
       // ==================================================
-      // VORHANDENE LISTEN FINDEN
+      // FIND AVAILABLE LISTS
       // ==================================================
 
       const allLists = [
-
         ...new Set(
-
           allStimuli.map(
             item =>
               item.list.trim()
           )
-
         )
-
       ]
 
-
       console.log(
-        'Verfügbare Listen:',
+        'Available Lists:',
         allLists
       )
 
-
       // ==================================================
-      // ZUFÄLLIG EINE LISTE AUSWÄHLEN
+      // PICK RANDOM LIST
       // ==================================================
 
       const randomIndex =
-
         Math.floor(
-
           Math.random() *
           allLists.length
-
         )
-
 
       this.selectedList =
         allLists[randomIndex]
 
-
       console.log(
-        'Gewählte Liste:',
+        'Picked list:',
         this.selectedList
       )
 
-
       // ==================================================
-      // NUR GEWÄHLTE LISTE BEHALTEN
+      // KEEP ONLY PICKED LIST
       // ==================================================
 
       let stimuli =
-
         parsed.data.filter(
-
           item =>
             item.list.trim() ===
             this.selectedList
-
         )
 
-
       console.log(
-        'Stimuli der gewählten Liste:',
+        'Stimuli of picked list:',
         stimuli
       )
 
-
       // ==================================================
-      // REIHENFOLGE RANDOMISIEREN
+      // RANDOMIZE ORDER
       // ==================================================
 
-      stimuli =
-        this.shuffle(stimuli)
-
+      stimuli = this.shuffle(stimuli)
 
       console.log(
-        'Randomisierte Stimuli:',
-        stimuli
+        'Randomized item order:',
+        stimuli.map(item => item.item)
       )
 
-
       // ==================================================
-      // GESAMTZAHL
+      // TOTAL NUMBER
       // ==================================================
 
       this.totalTrials =
         stimuli.length
 
-
       console.log(
-        'Gesamtzahl Trials:',
+        'Total number trials:',
         this.totalTrials
       )
 
-
       // ==================================================
-      // COMPREHENSION TRIALS AUSWÄHLEN
+      // PICK COMPREHENSION TRIALS 
       //
-      // WICHTIG:
+      // IMPORTANT:
       //
-      // Das passiert NACH dem Randomisieren.
+      // This does not happen after randomisation. 
       //
       // Dadurch beziehen sich die Indizes auf die
       // tatsächliche Reihenfolge, in der die Trials
@@ -502,10 +435,6 @@ export default {
           half
         )
 
-
-      console.log(
-        '=========================================='
-      )
 
       console.log(
         'BLOCKS'
@@ -763,41 +692,26 @@ export default {
       // ==================================================
 
       const header = [
-
         'participantID',
-
         'item',
-
         'list',
-
         'condition',
-
         'statement',
-
         'denial',
-
         'rating',
-
         'reactionTimeMs',
-
         'reactionTime',
-
+        'question',
+        'answer_A',
+        'answer_B',
         'comprehensionAnswer',
-
         'comprehensionCorrect',
-
         'comprehensionReactionTimeMs',
-
         'comprehensionReactionTime',
-
         'age',
-
         'gender',
-
         'genderSelfDescription',
-
         'nativeLanguage',
-
         'experimentDuration'
 
       ]
@@ -811,41 +725,26 @@ export default {
 
         this.responses.map(
           r => [
-
             r.participantID,
-
             r.item,
-
             r.list,
-
             r.condition,
-
             r.statement,
-
             r.denial,
-
             r.rating,
-
             r.reactionTimeMs,
-
             r.reactionTime,
-
+            r.question,
+            r.answer_A,
+            r.answer_B,
             r.comprehensionAnswer,
-
             r.comprehensionCorrect,
-
             r.comprehensionReactionTimeMs,
-
             r.comprehensionReactionTime,
-
             this.demographics.age,
-
             this.demographics.gender,
-
             this.demographics.genderSelfDescription,
-
             this.demographics.nativeLanguage,
-
             this.experimentDuration
 
           ]

@@ -10,16 +10,12 @@
          ================================================== -->
 
     <div class="progress-wrapper">
-
       <div class="progress-track">
-
         <div
           class="progress-fill"
           :style="{ width: progress + '%' }"
         ></div>
-
       </div>
-
     </div>
 
 
@@ -937,12 +933,10 @@ export default {
           this.currentTrialData
         )
 
-
         console.log(
           "VOLLSTÄNDIGES TRIAL GESPEICHERT:",
           this.currentTrialData
         )
-
 
         // ------------------------------------------------
         // Comprehension zurücksetzen
@@ -1062,32 +1056,20 @@ export default {
 
       this.currentTrialData = {
 
-        participantID:
-          this.participantID,
-
-        item:
-          this.currentItem.item,
-
-        condition:
-          this.currentItem.condition,
-
-        list:
-          this.currentItem.list,
-
-        statement:
-          this.currentItem.statement,
-
-        denial:
-          this.currentItem.denial,
-
+        participantID: this.participantID,
+        item: this.currentItem.item,
+        condition: this.currentItem.condition,
+        list: this.currentItem.list,
+        statement: this.currentItem.statement,
+        denial: this.currentItem.denial,
+        question: this.currentItem.question,
+        answer_A: this.currentItem.answer_A,
+        answer_B: this.currentItem.answer_B, 
         rating:
           this.response === null
             ? "NA"
             : this.response,
-
-        reactionTimeMs:
-          reactionTimeMs,
-
+        reactionTimeMs: reactionTimeMs,
         reactionTime:
           reactionTimeMs === "NA"
             ? "NA"
