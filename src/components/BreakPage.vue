@@ -13,11 +13,40 @@
       Machen Sie gerne eine kurze Pause.
     </p>
 
-    <button @click="$emit('continue')">
-      Mit dem zweiten Block fortfahren
-    </button>
+    <p class="instruction">
+      Drücken Sie die Taste <strong>B</strong>, um mit dem zweiten Block fortzufahren.
+    </p>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'BreakPage',
+
+  mounted() {
+    console.log("BreakPage ist geladen")
+
+    window.addEventListener('keydown', this.handleKeydown)
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('keydown', this.handleKeydown)
+  },
+
+  methods: {
+
+    handleKeydown(event) {
+      console.log("Taste gedrückt:", event.key)
+
+      if (event.key === 'b' || event.key === 'B') {
+        console.log("B wurde gedrückt")
+        this.$emit('next')
+      }
+    }
+
+  }
+}
+</script>
 
 <style scoped>
 .page {
@@ -27,7 +56,7 @@
   font-family: Arial, sans-serif;
 }
 
-button {
+.instruction {
   margin-top: 30px;
   padding: 12px 28px;
   font-size: 18px;

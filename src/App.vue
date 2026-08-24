@@ -4,16 +4,13 @@
 
   <div>
 
-
     <!-- ==================================================
          START
          ================================================== -->
-
     <StartPage
       v-if="page === 'start'"
       @next="page = 'instructions'"
     />
-
 
     <!-- ==================================================
          INSTRUCTIONS
@@ -24,29 +21,20 @@
       @next="startExperiment"
     />
 
-
     <!-- ==================================================
          BLOCK 1
          ================================================== -->
 
     <TrialPage
       key="block1"
-
       v-if="page === 'block1'"
-
       :stimuli="block1"
-
       :totalTrials="totalTrials"
-
       :startIndex="0"
-
       :participantID="participantID"
-
       :comprehensionTrials="comprehensionTrials"
-
       @finished="finishBlock1"
     />
-
 
     <!-- ==================================================
          BREAK
@@ -54,9 +42,8 @@
 
     <BreakPage
       v-if="page === 'break'"
-      @continue="startBlock2"
+      @next="startBlock2"
     />
-
 
     <!-- ==================================================
          BLOCK 2
@@ -64,22 +51,14 @@
 
     <TrialPage
       key="block2"
-
       v-if="page === 'block2'"
-
       :stimuli="block2"
-
       :totalTrials="totalTrials"
-
       :startIndex="block1.length"
-
       :participantID="participantID"
-
       :comprehensionTrials="comprehensionTrials"
-
       @finished="finishExperiment"
     />
-
 
     <!-- ==================================================
          DEMOGRAPHICS
@@ -89,7 +68,6 @@
       v-if="page == 'demographics'"
       @finished="saveDemographics"
     />
-
 
     <!-- ==================================================
          END
@@ -115,18 +93,15 @@ import BreakPage from './components/BreakPage.vue'
 import DemographicsPage from './components/DemographicsPage.vue'
 import EndPage from './components/EndPage.vue'
 
-
 export default {
 
   components: {
-
     StartPage,
     InstructionPage,
     TrialPage,
     BreakPage,
     DemographicsPage,
     EndPage
-
   },
 
 
