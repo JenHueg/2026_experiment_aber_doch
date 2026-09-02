@@ -1,12 +1,22 @@
 # TrialPage.vue
 
+<!-- ====================================
+TRANSPARENCY
+This code was developed using the help of AI. The model used: 
+OpenAI.(2026). ChatGPT (GPT -5.6 Luna). [Large language model]. https.://chatgpt.com
+
+PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER: 
+
+    ======================================== -->
+
+
 <template>
 
   <div class="trial-container">
 
 
     <!-- ==================================================
-         FORTSCHRITTSBALKEN
+         PROGRESS BAR
          ================================================== -->
 
     <div class="progress-wrapper">
@@ -20,14 +30,12 @@
 
 
     <!-- ==================================================
-         NORMALER TRIAL / RATING-SCREEN
+         NORMAL TRIAL / RATING-SCREEN
          ================================================== -->
 
     <div v-if="!showComprehension">
 
-
       <!-- Dialog -->
-
       <div class="dialog-box">
 
         <p class="speaker">
@@ -37,7 +45,6 @@
         <p class="utterance">
           „{{ currentItem.statement }}“
         </p>
-
 
         <p class="speaker">
           <strong>Person B:</strong>
@@ -49,19 +56,16 @@
 
       </div>
 
-
-      <!-- Bewertung -->
+      <!-- ============================================
+          RATING
+          ============================================= -->
 
       <div class="scale">
 
         <div class="scale-labels">
-
           <span>sehr gut</span>
-
           <span>sehr schlecht</span>
-
         </div>
-
 
         <div class="scale-options">
 
@@ -85,7 +89,9 @@
       </div>
 
 
-      <!-- Weiter -->
+      <!-- ===========================================
+          CONTINUE
+          ============================================ -->
 
       <button
         class="next-button"
@@ -107,20 +113,18 @@
       class="comprehension"
     >
 
-
-      <!-- Frage -->
+      <!-- Question -->
 
       <p class="question">
         {{ currentItem.question }}
       </p>
 
 
-      <!-- Antwortmöglichkeiten -->
+      <!-- response possibilties -->
 
       <div class="comprehension-options">
 
-
-        <!-- Antwort A -->
+      <!-- Anwer A -->
 
         <button
           class="answer-button"
@@ -131,8 +135,7 @@
 
         </button>
 
-
-        <!-- Antwort B -->
+      <!-- Answer B -->
 
         <button
           class="answer-button"
@@ -143,11 +146,9 @@
 
         </button>
 
-
       </div>
 
     </div>
-
 
   </div>
 
@@ -159,7 +160,6 @@
 export default {
 
   name: 'TrialPage',
-
 
   // ==================================================
   // PROPS
@@ -176,15 +176,13 @@ export default {
     participantID: String,
 
     // ------------------------------------------------
-    // Diese Liste wird jetzt von App.vue übergeben.
+    // This Liste is hand-over to App.vue.
     //
-    // Beispiel:
+    // Example:
     //
     // [1, 4, 7, 10]
     //
-    // Das sind die GLOBALEN Trial-Indizes,
-    // bei denen eine Comprehension Question
-    // angezeigt werden soll.
+    // Trial-Indizes in one of the Blocks, where comprehension question is shown
     // ------------------------------------------------
 
     comprehensionTrials: {
@@ -204,11 +202,10 @@ export default {
     return {
 
       // ------------------------------------------------
-      // aktuelles Item innerhalb dieses Blocks
+      // current Item in block
       // ------------------------------------------------
 
       currentIndex: 0,
-
 
       // ------------------------------------------------
       // Rating
@@ -216,52 +213,38 @@ export default {
 
       response: null,
 
-
       // ------------------------------------------------
       // Comprehension
       // ------------------------------------------------
 
       showComprehension: false,
-
       comprehensionAnswer: null,
-
       comprehensionCorrect: null,
 
-
       // ------------------------------------------------
-      // Daten des aktuellen Trials
+      // Data of current trial
       //
-      // Diese werden zunächst nach dem Rating
-      // zwischengespeichert und erst nach der
-      // Comprehension Question endgültig gespeichert.
+      // They are safed after rating and will finally be safed after comprehension question 
       // ------------------------------------------------
 
       currentTrialData: null,
 
-
       // ------------------------------------------------
-      // Gesamte Ergebnisse
+      // Full responses
       // ------------------------------------------------
 
       responses: [],
-
 
       // ------------------------------------------------
       // Timer
       // ------------------------------------------------
 
       trialStartTime: null,
-
       timeoutID: null,
-
       countdownID: null,
-
       remainingTime: 8
-
     }
-
   },
-
 
   // ==================================================
   // COMPUTED
@@ -269,20 +252,17 @@ export default {
 
   computed: {
 
-
     // ==================================================
-    // AKTUELLES ITEM
+    // CURRENT ITEM
     // ==================================================
 
     currentItem() {
-
       if (
         !this.stimuli ||
         this.currentIndex >= this.stimuli.length
       ) {
-
         console.error(
-          "currentItem ist nicht vorhanden!",
+          "currentItem is not available!",
           {
             currentIndex: this.currentIndex,
             stimuliLength: this.stimuli
@@ -290,47 +270,35 @@ export default {
               : "stimuli fehlt"
           }
         )
-
         return null
-
       }
-
 
       return this.stimuli[this.currentIndex]
 
     },
 
-
     // ==================================================
-    // GLOBALER INDEX DES AKTUELLEN ITEMS
+    // GLOBAL INDEX OF CURRENT ITEM
     // ==================================================
 
     globalCurrentIndex() {
-
       return (
         this.startIndex +
         this.currentIndex
       )
-
     },
 
-
     // ==================================================
-    // ENTSCHEIDUNG:
-    // BEKOMMT DIESES ITEM EINE COMPREHENSION QUESTION?
+    // DECISION:
+    // DOES THIS ITEM GET A COMPREHENSION QUESTION?
     // ==================================================
 
     isComprehensionItem() {
 
       const result =
         this.comprehensionTrials.includes(
-          this.globalCurrentIndex
+          this.currentIndex
         )
-
-
-      console.log(
-        "------------------------------------------"
-      )
 
       console.log(
         "COMPREHENSION CHECK"
@@ -347,7 +315,7 @@ export default {
       )
 
       console.log(
-        "Globaler Index:",
+        "Global Index:",
         this.globalCurrentIndex
       )
 
@@ -361,18 +329,13 @@ export default {
         result
       )
 
-      console.log(
-        "------------------------------------------"
-      )
-
-
       return result
 
     },
 
 
     // ==================================================
-    // FORTSCHRITTSBALKEN
+    // PROGRESS BAR
     // ==================================================
 
     progress() {
@@ -386,19 +349,14 @@ export default {
         }
       )
 
-
       if (
         !this.totalTrials ||
         this.totalTrials === 0
       ) {
-
         return 0
-
       }
 
-
       return (
-
         (
           this.startIndex +
           this.currentIndex
@@ -420,57 +378,38 @@ export default {
   created() {
 
     console.log(
-      "=========================================="
-    )
-
-    console.log(
       "TRIAL PAGE CREATED"
     )
-
-    console.log(
-      "=========================================="
-    )
-
 
     console.log(
       "Stimuli:",
       this.stimuli
     )
 
-
     console.log(
-      "Anzahl Stimuli in diesem Block:",
+      "Number of stimuli in this block:",
       this.stimuli
         ? this.stimuli.length
         : "stimuli fehlt"
     )
 
-
     console.log(
-      "StartIndex dieses Blocks:",
+      "StartIndex of block:",
       this.startIndex
     )
-
 
     console.log(
       "Globaler Startindex:",
       this.startIndex
     )
 
-
     console.log(
       "Von App.vue übergebene Comprehension Trials:",
       this.comprehensionTrials
     )
 
-
-    console.log(
-      "=========================================="
-    )
-
-
     // ------------------------------------------------
-    // Erstes Item kontrollieren
+    // CONTROLL FIRST ITEM
     // ------------------------------------------------
 
     if (
@@ -479,7 +418,7 @@ export default {
     ) {
 
       console.log(
-        "Erstes Item:",
+        "First Item:",
         this.stimuli[0]
       )
 
@@ -511,17 +450,16 @@ export default {
 
 
     // ------------------------------------------------
-    // WICHTIG:
+    // IMPORTANT:
     //
-    // Hier wird NICHT mehr zufällig ausgewählt.
+    // From now on no randomisation.
     //
-    // App.vue entscheidet zentral, welche
-    // Trials Comprehension Questions bekommen.
+    // App.vue decides centrally, which
+    // Trials get a Comprehension Questions.
     // ------------------------------------------------
 
-
     // ------------------------------------------------
-    // Timer für erstes Trial starten
+    // START TIMER FOR FIRST TRIAL
     // ------------------------------------------------
 
     this.startTrialTimer()
@@ -535,16 +473,11 @@ export default {
 
   methods: {
 
-
     // ==================================================
-    // TIMER STARTEN
+    // START TIMER
     // ==================================================
 
     startTrialTimer() {
-
-      console.log(
-        "=========================================="
-      )
 
       console.log(
         "START TRIAL TIMER"
@@ -572,62 +505,51 @@ export default {
 
 
       // ------------------------------------------------
-      // Sicherheitscheck
+      // SECURITY CHECK
       // ------------------------------------------------
 
       if (!this.currentItem) {
 
         console.error(
-          "TIMER NICHT GESTARTET:",
-          "currentItem ist nicht vorhanden."
+          "Timer didn't start:",
+          "currentItem i not available."
         )
 
         return
 
       }
 
-
       // ------------------------------------------------
-      // Alten Timeout löschen
+      // DELETE OLD TIMEOUT
       // ------------------------------------------------
 
       if (this.timeoutID) {
-
         clearTimeout(
           this.timeoutID
         )
-
         this.timeoutID = null
-
       }
 
-
       // ------------------------------------------------
-      // Alten Countdown löschen
+      // DELETE OLD COUNTDOWN
       // ------------------------------------------------
 
       if (this.countdownID) {
-
         clearInterval(
           this.countdownID
         )
-
         this.countdownID = null
-
       }
 
-
       // ------------------------------------------------
-      // Startzeit speichern
+      // SAFE STARTING TINE
       // ------------------------------------------------
 
       this.trialStartTime =
         Date.now()
 
-
       this.remainingTime =
-        8
-
+        10
 
       // ------------------------------------------------
       // Countdown
@@ -635,35 +557,24 @@ export default {
 
       this.countdownID =
         setInterval(() => {
-
           this.remainingTime--
-
-
           if (
             this.remainingTime <= 0
           ) {
-
             clearInterval(
               this.countdownID
             )
-
             this.countdownID = null
-
           }
-
         }, 1000)
 
 
       // ------------------------------------------------
-      // 8-Sekunden-Timeout
+      // SET TIME-OUT TIME
       // ------------------------------------------------
 
       this.timeoutID =
         setTimeout(() => {
-
-          console.log(
-            "=========================================="
-          )
 
           console.log(
             "TIMEOUT"
@@ -684,41 +595,31 @@ export default {
             this.showComprehension
           )
 
-
-          // Countdown stoppen
+          // Stop countdown 
 
           if (this.countdownID) {
-
             clearInterval(
               this.countdownID
             )
-
             this.countdownID = null
-
           }
 
-
-          // Trial abschließen
+          // Trial closed
 
           this.nextTrial()
 
-        }, 8000)
+        }, 10000)
 
     },
 
-
     // ==================================================
-    // COMPREHENSION ANTWORT AUSWÄHLEN
+    // CHOOSE COMPREHENSION ANSWER
     // ==================================================
 
     selectComprehensionAnswer(answer) {
 
       console.log(
-        "=========================================="
-      )
-
-      console.log(
-        "COMPREHENSION ANTWORT"
+        "COMPREHENSION ANSWER"
       )
 
       console.log(
@@ -733,15 +634,14 @@ export default {
 
 
       // ------------------------------------------------
-      // Antwort speichern
+      // Save answer
       // ------------------------------------------------
 
       this.comprehensionAnswer =
         answer
 
-
       // ------------------------------------------------
-      // Antwort überprüfen
+      // Check answer 
       // ------------------------------------------------
 
       this.comprehensionCorrect =
@@ -750,31 +650,24 @@ export default {
           this.currentItem.correct_answer
         ).trim()
 
-
       console.log(
         "Comprehension korrekt?:",
         this.comprehensionCorrect
       )
 
-
       // ------------------------------------------------
-      // Comprehension Trial abschließen
+      // Comprehension Trial closed
       // ------------------------------------------------
 
       this.nextTrial()
 
     },
 
-
     // ==================================================
     // NEXT TRIAL
     // ==================================================
 
     nextTrial() {
-
-      console.log(
-        "=========================================="
-      )
 
       console.log(
         "NEXT TRIAL"
@@ -802,49 +695,37 @@ export default {
 
 
       // ------------------------------------------------
-      // Sicherheitscheck
+      // Security check
       // ------------------------------------------------
 
       if (!this.currentItem) {
-
         console.error(
           "NEXT TRIAL ABGEBROCHEN:",
           "currentItem ist nicht vorhanden."
         )
-
         return
-
       }
 
-
       // ------------------------------------------------
-      // Timer stoppen
+      // Stop timer
       // ------------------------------------------------
 
       if (this.timeoutID) {
-
         clearTimeout(
           this.timeoutID
         )
-
         this.timeoutID = null
-
       }
 
-
       if (this.countdownID) {
-
         clearInterval(
           this.countdownID
         )
-
         this.countdownID = null
-
       }
 
-
       // ==================================================
-      // FALL 1:
+      // CASE 1:
       // COMPREHENSION SCREEN
       // ==================================================
 
@@ -853,53 +734,63 @@ export default {
       ) {
 
         console.log(
-          "------------------------------------------"
+          "COMPREHENSION SCREEN CLOSED"
         )
-
-        console.log(
-          "COMPREHENSION SCREEN WIRD ABGESCHLOSSEN"
-        )
-
 
         // ------------------------------------------------
-        // Reaktionszeit berechnen
+        // Calculate reaction times
         // ------------------------------------------------
 
         let comprehensionReactionTimeMs =
           "NA"
 
-
         if (
           this.trialStartTime &&
           this.comprehensionAnswer !== null
         ) {
-
           comprehensionReactionTimeMs =
             Date.now() -
             this.trialStartTime
-
         }
 
-
         // ------------------------------------------------
-        // Comprehension-Daten speichern
+        // Safe Comprehension data
         // ------------------------------------------------
 
-        this.currentTrialData.comprehensionAnswer =
-          this.comprehensionAnswer === null
-            ? "NA"
-            : this.comprehensionAnswer
+          if (
+            this.isComprehensionItem &&
+            this.comprehensionAnswer === null
+          ) {
 
+            this.currentTrialData.comprehensionAnswer = "missing"
+            this.currentTrialData.comprehensionCorrect = "missing"
+          }
 
-        this.currentTrialData.comprehensionCorrect =
-          this.comprehensionCorrect === null
-            ? "NA"
-            : this.comprehensionCorrect
+          // Comprehension Question wurde angezeigt
+          // und wurde beantwortet
+          else if (
+            this.isComprehensionItem &&
+            this.comprehensionAnswer !== null
+          ) {
 
+            this.currentTrialData.comprehensionAnswer =
+              this.comprehensionAnswer
+
+            this.currentTrialData.comprehensionCorrect =
+              this.comprehensionCorrect
+
+          }
+
+          // No comprehension question presented for this trial
+          else {
+
+            this.currentTrialData.comprehensionAnswer = "NA"
+            this.currentTrialData.comprehensionCorrect = "NA"
+
+          }
 
         this.currentTrialData.comprehensionReactionTimeMs =
           comprehensionReactionTimeMs
-
 
         this.currentTrialData.comprehensionReactionTime =
           comprehensionReactionTimeMs === "NA"
@@ -908,9 +799,8 @@ export default {
                 comprehensionReactionTimeMs
               )
 
-
         console.log(
-          "Comprehension-Daten:",
+          "Comprehension data:",
           {
             answer:
               this.currentTrialData.comprehensionAnswer,
@@ -924,9 +814,8 @@ export default {
           }
         )
 
-
         // ------------------------------------------------
-        // Vollständiges Trial speichern
+        // Safe complete trial
         // ------------------------------------------------
 
         this.responses.push(
@@ -934,12 +823,12 @@ export default {
         )
 
         console.log(
-          "VOLLSTÄNDIGES TRIAL GESPEICHERT:",
+          "TRIAL SAFED",
           this.currentTrialData
         )
 
         // ------------------------------------------------
-        // Comprehension zurücksetzen
+        // Reset comprehension
         // ------------------------------------------------
 
         this.showComprehension =
@@ -959,7 +848,7 @@ export default {
 
 
         // ------------------------------------------------
-        // Prüfen, ob letztes Trial
+        // CHECK WHETHER LAST TRIAL
         // ------------------------------------------------
 
         if (
@@ -968,63 +857,50 @@ export default {
         ) {
 
           console.log(
-            "LETZTES TRIAL ABGESCHLOSSEN."
+            "LAST TRIAL COMPLETED."
           )
-
 
           this.$emit(
             'finished',
             this.responses
           )
 
-
           return
 
         }
 
-
         // ------------------------------------------------
-        // Nächstes Trial
+        // Next Trial
         // ------------------------------------------------
 
         this.currentIndex++
-
 
         console.log(
           "Nächstes Trial:",
           this.currentIndex
         )
 
-
         this.startTrialTimer()
-
 
         return
 
       }
 
-
       // ==================================================
-      // FALL 2:
-      // NORMALER RATING SCREEN
+      // CASE 2:
+      // NORMAL RATING SCREEN
       // ==================================================
-
-      console.log(
-        "------------------------------------------"
-      )
 
       console.log(
         "RATING SCREEN WIRD ABGESCHLOSSEN"
       )
 
-
       // ------------------------------------------------
-      // Rating-Reaktionszeit
+      // Rating of reaction time
       // ------------------------------------------------
 
       let reactionTimeMs =
         "NA"
-
 
       if (
         this.trialStartTime &&
@@ -1034,24 +910,20 @@ export default {
         reactionTimeMs =
           Date.now() -
           this.trialStartTime
-
       }
-
 
       console.log(
         "Rating:",
         this.response
       )
 
-
       console.log(
         "Rating Reaction Time:",
         reactionTimeMs
       )
 
-
       // ------------------------------------------------
-      // Aktuelles Trial zwischenspeichern
+      // Safe current trial in between
       // ------------------------------------------------
 
       this.currentTrialData = {
@@ -1064,7 +936,8 @@ export default {
         denial: this.currentItem.denial,
         question: this.currentItem.question,
         answer_A: this.currentItem.answer_A,
-        answer_B: this.currentItem.answer_B, 
+        answer_B: this.currentItem.answer_B,
+        correct_answer: this.currentItem.correct_answer, 
         rating:
           this.response === null
             ? "NA"
@@ -1079,10 +952,9 @@ export default {
 
 
         // ------------------------------------------------
-        // Standardmäßig NA.
+        // NA per default
         //
-        // Falls eine Comprehension Question kommt,
-        // werden diese Werte später überschrieben.
+        // When comprehension question occurs, answers are overriden
         // ------------------------------------------------
 
         comprehensionAnswer:
@@ -1101,27 +973,21 @@ export default {
 
 
       console.log(
-        "Rating-Daten zwischengespeichert:",
+        "Rating-Daten safed temporarily:",
         this.currentTrialData
       )
 
-
       // ------------------------------------------------
-      // Rating zurücksetzen
+      // Reset rating
       // ------------------------------------------------
 
       this.response =
         null
 
-
       // ==================================================
-      // ENTSCHEIDUNG:
-      // COMPREHENSION QUESTION ODER NICHT?
+      // DECISON
+      // COMPREHENSION QUESTION OR NOT
       // ==================================================
-
-      console.log(
-        "------------------------------------------"
-      )
 
       console.log(
         "PRÜFE COMPREHENSION"
@@ -1144,7 +1010,7 @@ export default {
 
 
       // ==================================================
-      // FALL 2A:
+      // CASE 2A:
       // COMPREHENSION QUESTION
       // ==================================================
 
@@ -1152,12 +1018,9 @@ export default {
         this.isComprehensionItem
       ) {
 
+       
         console.log(
-          "##########################################"
-        )
-
-        console.log(
-          "COMPREHENSION QUESTION WIRD ANGEZEIGT"
+          "COMPREHENSION QUESTION IS SHOWN"
         )
 
         console.log(
@@ -1175,13 +1038,8 @@ export default {
           this.currentItem.answer_B
         )
 
-        console.log(
-          "##########################################"
-        )
-
-
         // ------------------------------------------------
-        // Comprehension Screen anzeigen
+        // Show Comprehension Screen 
         // ------------------------------------------------
 
         this.showComprehension =
@@ -1189,83 +1047,71 @@ export default {
 
 
         // ------------------------------------------------
-        // Timer für Frage neu starten
+        // Restart timer for  question
         // ------------------------------------------------
 
         this.startTrialTimer()
-
 
       }
 
 
       // ==================================================
-      // FALL 2B:
-      // KEINE COMPREHENSION QUESTION
+      // CASE B
+      // NO COMPREHENSION QUESTION
       // ==================================================
 
       else {
-
         console.log(
-          "KEINE COMPREHENSION QUESTION"
+          "NO COMPREHENSION QUESTION"
         )
 
-
         // ------------------------------------------------
-        // Trial direkt speichern
+        // Trial safed directly
         // ------------------------------------------------
 
         this.responses.push(
           this.currentTrialData
         )
 
-
         console.log(
           "Normales Trial gespeichert:",
           this.currentTrialData
         )
 
-
         this.currentTrialData =
           null
 
-
         // ------------------------------------------------
-        // Prüfen, ob letztes Trial
+        // Check whether last trial
         // ------------------------------------------------
 
         if (
           this.currentIndex ===
           this.stimuli.length - 1
         ) {
-
           console.log(
-            "LETZTES TRIAL ABGESCHLOSSEN."
+            "LAST TRIAL COMPLETED."
           )
-
 
           this.$emit(
             'finished',
             this.responses
           )
 
-
           return
 
         }
 
-
         // ------------------------------------------------
-        // Nächstes Trial
+        // Next Trial
         // ------------------------------------------------
 
         this.currentIndex++
-
 
         console.log(
           "Nächstes Trial:",
           this.currentIndex
         )
-
 
         this.startTrialTimer()
 
@@ -1275,7 +1121,7 @@ export default {
 
 
     // ==================================================
-    // REAKTIONSZEIT FORMATIEREN
+    // FORMAT REACTION TIMES
     // ==================================================
 
     formatDuration(ms) {
@@ -1285,54 +1131,38 @@ export default {
         ms === null ||
         ms === undefined
       ) {
-
         return "NA"
-
       }
-
 
       const totalSeconds =
         Math.floor(
           ms / 1000
         )
 
-
       const hours =
         Math.floor(
           totalSeconds / 3600
         )
-
 
       const minutes =
         Math.floor(
           (totalSeconds % 3600) / 60
         )
 
-
       const seconds =
         totalSeconds % 60
 
-
       return (
-
         String(hours)
           .padStart(2, "0")
-
         +
-
         "-"
-
         +
-
         String(minutes)
           .padStart(2, "0")
-
         +
-
         "-"
-
         +
-
         String(seconds)
           .padStart(2, "0")
 
@@ -1350,190 +1180,97 @@ export default {
 <style scoped>
 
 .trial-container {
-
   max-width: 800px;
-
   margin: 50px auto;
-
   font-family: Arial, sans-serif;
 
 }
 
-
-/* ==================================================
-   FORTSCHRITTSBALKEN
-   ================================================== */
-
 .progress-wrapper {
-
   width: 100%;
-
   margin-bottom: 30px;
-
 }
 
-
 .progress-track {
-
   width: 100%;
-
   height: 14px;
-
   background-color: #e0e0e0;
-
   border-radius: 7px;
-
   overflow: hidden;
-
 }
 
 
 .progress-fill {
-
   height: 100%;
-
   width: 0%;
-
   background-color: #4CAF50;
-
   transition: width 0.3s ease;
-
 }
-
-
-/* ==================================================
-   DIALOG
-   ================================================== */
 
 .dialog-box {
-
   margin: 40px 0;
-
   padding: 30px;
-
   border: 1px solid #ddd;
-
   border-radius: 10px;
-
 }
-
 
 .speaker {
-
   margin-bottom: 5px;
-
 }
-
 
 .utterance {
-
   font-size: 1.2em;
-
   margin-bottom: 25px;
-
 }
-
-
-/* ==================================================
-   RATING
-   ================================================== */
 
 .scale {
-
   margin: 40px 0;
-
 }
-
 
 .scale-labels {
-
   display: flex;
-
   justify-content: space-between;
-
   margin-bottom: 10px;
-
 }
-
 
 .scale-options {
-
   display: flex;
-
   justify-content: space-between;
-
 }
-
 
 .scale-options label {
-
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
 }
-
-
-/* ==================================================
-   WEITER-BUTTON
-   ================================================== */
 
 .next-button {
-
   margin-top: 30px;
-
   padding: 12px 28px;
-
   font-size: 18px;
-
 }
-
-
-/* ==================================================
-   COMPREHENSION
-   ================================================== */
 
 .comprehension {
-
   margin: 80px 0;
-
   text-align: center;
-
 }
-
 
 .question {
-
   font-size: 1.3em;
-
   margin-bottom: 40px;
-
 }
-
 
 .comprehension-options {
-
   display: flex;
-
   justify-content: space-between;
-
   gap: 30px;
-
 }
 
-
 .answer-button {
-
   flex: 1;
-
   padding: 20px;
-
   font-size: 18px;
-
   cursor: pointer;
-
 }
 
 </style>

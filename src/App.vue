@@ -1,5 +1,14 @@
 # App.vue
 
+<!-- ====================================
+TRANSPARENCY
+This code was developed using the help of AI. The model used: 
+OpenAI.(2026). ChatGPT (GPT -5.6 Luna). [Large language model]. https.://chatgpt.com
+
+PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER: 
+
+    ======================================== -->
+
 <template>
 
   <div>
@@ -32,7 +41,7 @@
       :totalTrials="totalTrials"
       :startIndex="0"
       :participantID="participantID"
-      :comprehensionTrials="comprehensionTrials"
+      :comprehensionTrials="comprehensionTrialsBlock1"
       @finished="finishBlock1"
     />
 
@@ -56,7 +65,7 @@
       :totalTrials="totalTrials"
       :startIndex="block1.length"
       :participantID="participantID"
-      :comprehensionTrials="comprehensionTrials"
+      :comprehensionTrials="comprehensionTrialsBlock2"
       @finished="finishExperiment"
     />
 
@@ -81,11 +90,9 @@
 
 </template>
 
-
 <script>
 
 import Papa from 'papaparse'
-
 import StartPage from './components/StartPage.vue'
 import InstructionPage from './components/InstructionPage.vue'
 import TrialPage from './components/TrialPage.vue'
@@ -115,6 +122,8 @@ export default {
       page: 'start',
       block1: [],
       block2: [],
+      comprehensionTrialsBlock1: [],
+      comprehensionTrialsBlock2: [],
       responses: [],
       selectedList: '',
       totalTrials: 0,
@@ -125,19 +134,17 @@ export default {
       // ==================================================
       // COMPREHENSION TRIALS
       //
-      // Hier werden die GLOBALEN Indizes der Trials
-      // gespeichert, die eine Comprehension Question
-      // bekommen.
+      //Global indices of trials with comprehension question are saved
       //
-      // Beispiel:
+      // Example:
       //
       // [1, 4, 7]
       //
       // bedeutet:
       //
-      // Trial 1 -> Frage
-      // Trial 4 -> Frage
-      // Trial 7 -> Frage
+      // Trial 1 -> Question
+      // Trial 4 -> Question
+      // Trial 7 -> Question
       // ==================================================
 
       comprehensionTrials: [],
@@ -301,120 +308,7 @@ export default {
       )
 
       // ==================================================
-      // PICK COMPREHENSION TRIALS 
-      //
-      // IMPORTANT:
-      //
-      // This does not happen after randomisation. 
-      //
-      // Dadurch beziehen sich die Indizes auf die
-      // tatsächliche Reihenfolge, in der die Trials
-      // präsentiert werden.
-      // ==================================================
-
-
-      const numberOfComprehensionQuestions =
-
-        Math.max(
-
-          1,
-
-          Math.round(
-            this.totalTrials / 3
-          )
-
-        )
-
-
-      console.log(
-        'Anzahl geplanter Comprehension Questions:',
-        numberOfComprehensionQuestions
-      )
-
-
-      // ------------------------------------------------
-      // Alle globalen Trial-Indizes erzeugen
-      // ------------------------------------------------
-
-      const allIndices =
-
-        stimuli.map(
-          (item, index) =>
-            index
-        )
-
-
-      console.log(
-        'Alle Trial-Indizes:',
-        allIndices
-      )
-
-
-      // ------------------------------------------------
-      // Indizes zufällig mischen
-      // ------------------------------------------------
-
-      const shuffledIndices =
-        this.shuffle(
-          [...allIndices]
-        )
-
-
-      console.log(
-        'Zufällig gemischte Indizes:',
-        shuffledIndices
-      )
-
-
-      // ------------------------------------------------
-      // Erstes Drittel auswählen
-      // ------------------------------------------------
-
-      this.comprehensionTrials =
-
-        shuffledIndices.slice(
-          0,
-          numberOfComprehensionQuestions
-        )
-
-
-      // ------------------------------------------------
-      // Zur Sicherheit sortieren
-      //
-      // Das ist NICHT notwendig für die Auswahl.
-      // Es macht die Console-Ausgabe aber übersichtlicher.
-      // ------------------------------------------------
-
-      this.comprehensionTrials.sort(
-        (a, b) => a - b
-      )
-
-
-      console.log(
-        '=========================================='
-      )
-
-      console.log(
-        'COMPREHENSION TRIALS'
-      )
-
-      console.log(
-        '=========================================='
-      )
-
-      console.log(
-        'Ausgewählte globale Indizes:',
-        this.comprehensionTrials
-      )
-
-      console.log(
-        'Anzahl:',
-        this.comprehensionTrials.length
-      )
-
-
-      // ==================================================
-      // IN ZWEI BLÖCKE TEILEN
+      // CREATE TWO BLOCKS
       // ==================================================
 
       const half =
@@ -422,19 +316,16 @@ export default {
           stimuli.length / 2
         )
 
-
       this.block1 =
         stimuli.slice(
           0,
           half
         )
 
-
       this.block2 =
         stimuli.slice(
           half
         )
-
 
       console.log(
         'BLOCKS'
@@ -460,9 +351,94 @@ export default {
         this.block2.length
       )
 
+      // =================================================
+      // PICK COMPRHENSION TRIAL PER BLOCK
+      // =================================================
+
+      // --------------BLOCK 1----------------------------
+
+      const numberCQBlock1 =
+        Math.max(
+          1,
+          Math.round(
+            this.block1.length / 3
+          )
+        )
+
+      const block1Indices =
+        this.block1.map(
+          (item, index) => index
+        )
+
+      const shuffledBlock1Indices =
+        this.shuffle(
+          [...block1Indices]
+        )
+
+      this.comprehensionTrialsBlock1 =
+        shuffledBlock1Indices
+          .slice(
+            0,
+            numberCQBlock1
+          )
+
+      //-------------BLOCK 2-------------------------------
+
+      const numberCQBlock2 =
+      Math.max(
+        1,
+        Math.round(
+          this.block2.length / 3
+        )
+      )
+
+      const block2Indices =
+        this.block2.map(
+          (item, index) => index
+        )
+
+      const shuffledBlock2Indices =
+        this.shuffle(
+          [...block2Indices]
+        )
+
+      this.comprehensionTrialsBlock2 =
+        shuffledBlock2Indices
+          .slice(
+            0,
+            numberCQBlock2
+          )
+
+      //==================================================
+      // DEBUGGING ITEM PICK PER BLOCK
+      //===================================================
+
+      console.log(
+        'COMPREHENSION TRIALS'
+      )
+
+      console.log(
+        'Block 1 Indizes:',
+        this.comprehensionTrialsBlock1
+      )
+
+      console.log(
+        'Anzahl Block 1:',
+        this.comprehensionTrialsBlock1.length
+      )
+
+      console.log(
+        'Block 2 Indizes:',
+        this.comprehensionTrialsBlock2
+      )
+
+      console.log(
+        'Anzahl Block 2:',
+        this.comprehensionTrialsBlock2.length
+      )
 
       // ==================================================
-      // EXPERIMENT STARTEN
+      // START EXPERIMENT
       // ==================================================
 
       this.page =
@@ -470,9 +446,8 @@ export default {
 
     },
 
-
     // ==================================================
-    // ARRAY RANDOMISIEREN
+    // RANDOMISE ARRAY
     // ==================================================
 
     shuffle(array) {
@@ -482,54 +457,41 @@ export default {
         i > 0;
         i--
       ) {
-
         const j =
-
           Math.floor(
             Math.random() *
             (i + 1)
           )
 
-
         ;[array[i], array[j]] =
-
           [array[j], array[i]]
-
       }
 
-
       return array
-
     },
 
-
     // ==================================================
-    // ZEIT FORMATIEREN
+    // FORMAT TIME
     // ==================================================
 
     formatDuration(ms) {
-
       const totalSeconds =
         Math.floor(
           ms / 1000
         )
-
 
       const hours =
         Math.floor(
           totalSeconds / 3600
         )
 
-
       const minutes =
         Math.floor(
           (totalSeconds % 3600) / 60
         )
 
-
       const seconds =
         totalSeconds % 60
-
 
       return [
 
@@ -546,9 +508,8 @@ export default {
 
     },
 
-
     // ==================================================
-    // BLOCK 1 BEENDET
+    // BLOCK 1 END
     // ==================================================
 
     finishBlock1(blockResponses) {
@@ -557,24 +518,21 @@ export default {
         'BLOCK 1 BEENDET'
       )
 
-
       console.log(
         'Ergebnisse Block 1:',
         blockResponses
       )
 
-
       // ------------------------------------------------
-      // Ergebnisse hinzufügen
+      // ADD RESULTS
       // ------------------------------------------------
 
       this.responses.push(
         ...blockResponses
       )
 
-
       // ------------------------------------------------
-      // Pause
+      // BREAK
       // ------------------------------------------------
 
       this.page =
@@ -582,9 +540,8 @@ export default {
 
     },
 
-
     // ==================================================
-    // BLOCK 2 STARTEN
+    // BLOCK 2 START
     // ==================================================
 
     startBlock2() {
@@ -593,7 +550,6 @@ export default {
         'BLOCK 2 STARTET'
       )
 
-
       this.page =
         'block2'
 
@@ -601,7 +557,7 @@ export default {
 
 
     // ==================================================
-    // GESAMTES EXPERIMENT BEENDET
+    // FULL EXPERIMENT END
     // ==================================================
 
     finishExperiment(blockResponses) {
@@ -610,30 +566,26 @@ export default {
         'BLOCK 2 BEENDET'
       )
 
-
       console.log(
         'Ergebnisse Block 2:',
         blockResponses
       )
 
-
       // ------------------------------------------------
-      // Ergebnisse hinzufügen
+      // Add results
       // ------------------------------------------------
 
       this.responses.push(
         ...blockResponses
       )
 
-
       console.log(
         'ALLE EXPERIMENTDATEN:',
         this.responses
       )
 
-
       // ------------------------------------------------
-      // Gesamtdauer
+      // Time of whole experiment
       // ------------------------------------------------
 
       const durationMs =
@@ -641,12 +593,10 @@ export default {
         Date.now() -
         this.experimentStartTime
 
-
       this.experimentDuration =
         this.formatDuration(
           durationMs
         )
-
 
       // ------------------------------------------------
       // Demographics
@@ -657,35 +607,23 @@ export default {
 
     },
 
-
     // ==================================================
-    // DEMOGRAPHICS SPEICHERN
+    // DEMOGRAPHICS SAVE
     // ==================================================
 
     saveDemographics(data) {
-
-      console.log(
-        '=========================================='
-      )
 
       console.log(
         'SAVE DEMOGRAPHICS'
       )
 
       console.log(
-        '=========================================='
-      )
-
-
-      console.log(
         'Anzahl Responses:',
         this.responses.length
       )
 
-
       this.demographics =
         data
-
 
       // ==================================================
       // CSV HEADER
@@ -704,10 +642,13 @@ export default {
         'question',
         'answer_A',
         'answer_B',
+        'correct_answer',
         'comprehensionAnswer',
         'comprehensionCorrect',
         'comprehensionReactionTimeMs',
         'comprehensionReactionTime',
+        'federalState',
+        'dialectChoice',
         'age',
         'gender',
         'genderSelfDescription',
@@ -715,7 +656,6 @@ export default {
         'experimentDuration'
 
       ]
-
 
       // ==================================================
       // CSV ROWS
@@ -737,19 +677,21 @@ export default {
             r.question,
             r.answer_A,
             r.answer_B,
+            r.correct_answer,
             r.comprehensionAnswer,
             r.comprehensionCorrect,
             r.comprehensionReactionTimeMs,
             r.comprehensionReactionTime,
-            this.demographics.age,
-            this.demographics.gender,
-            this.demographics.genderSelfDescription,
-            this.demographics.nativeLanguage,
+            this.demographics.dialectChoice || "NA",
+            this.demographics.federalState || "NA",
+            this.demographics.age || "NA",
+            this.demographics.gender || "NA",
+            this.demographics.genderSelfDescription || "NA",
+            this.demographics.nativeLanguage || "NA",
             this.experimentDuration
 
           ]
         )
-
 
       // ==================================================
       // CSV ESCAPE
@@ -761,7 +703,6 @@ export default {
           String(
             value ?? ''
           )
-
 
         return (
 
@@ -778,9 +719,8 @@ export default {
 
       }
 
-
       // ==================================================
-      // CSV ERSTELLEN
+      // CSV CREATE
       // ==================================================
 
       const csv = [
@@ -814,34 +754,27 @@ export default {
           }
         )
 
-
       const url =
         URL.createObjectURL(
           blob
         )
-
 
       const a =
         document.createElement(
           'a'
         )
 
-
       a.href =
         url
-
 
       a.download =
         'responses.csv'
 
-
       a.click()
-
 
       URL.revokeObjectURL(
         url
       )
-
 
       // ==================================================
       // END

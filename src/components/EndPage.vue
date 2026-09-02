@@ -1,3 +1,12 @@
+<!-- ====================================
+TRANSPARENCY
+This code was developed using the help of AI. The model used: 
+OpenAI.(2026). ChatGPT (GPT -5.6 Luna). [Large language model]. https.://chatgpt.com
+
+PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER: 
+
+    ======================================== -->
+
 <template>
   <div class="page">
     <h1>Vielen Dank!</h1>
