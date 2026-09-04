@@ -226,8 +226,8 @@ export default {
 
   data() {
     return {
-      federalState: '',
       dialectChoice: '',
+      federalState: '',
       errorMessage: '',
       age: '',
       gender: '',
@@ -267,8 +267,8 @@ export default {
       //====================================
        
       this.$emit('finished', {
-        federalState: this.federalState,
         dialectChoice: this.dialectChoice,
+        federalState: this.federalState,
         age: this.age,
         gender: this.gender,
         genderSelfDescription:
