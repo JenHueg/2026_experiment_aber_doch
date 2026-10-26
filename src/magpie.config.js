@@ -1,11 +1,11 @@
 export default {
-  experimentId: '9',
-  serverUrl: 'https://magpie-demo.herokuapp.com/',
-  socketUrl: 'wss://magpie-demo.herokuapp.com/socket',
+  experimentId: '16',
+  serverUrl: 'https://ling-ex.gigalixirapp.com',
+  socketUrl: 'wss://ling-ex.gigalixirapp.com/socket',
   // this will be used in prolific mode
   completionUrl: 'https://...',
-  contactEmail: 'test@random.com',
+  contactEmail: 'jennifer.huege@uni-tuebingen.de',
   // Either 'debug', 'directLink' or 'prolific'
-  mode: 'debug',
+  mode: 'directLink',
   language: 'en'
 };
