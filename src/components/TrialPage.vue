@@ -1317,6 +1317,7 @@ export default {
   gap: 30px;
 }
 
+
 .answer-button {
   flex: 1;
   padding: 20px;
