@@ -1,18 +1,18 @@
 ﻿item;list;list_partial;item_number_original;condition;statement;denial;question;answer_A;answer_B;correct_answer
-1;A;AJ;1;xad;Klaus, den übrigens Petra gestern getroffen hat, will nach England auswandern. ;Er will doch nach Australien ziehen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
+1;A;AJ;1;xad;Klaus, den übrigens Petra gestern getroffen hat, will nach England auswandern.;Er will doch nach Australien ziehen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
 2;A;AJ;2;ynb;Alexa hat Paul, der übrigens ein Baumhaus bauen will, bei einer Verkehrskontrolle angehalten.;Er will aber einen Apfelbaum pflanzen.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
 3;A;AJ;3;yab;Sabrina hat Luis, der übrigens den Rektorposten übernehmen will, vom Flughafen abgeholt.;Sie hat ihn aber vergessen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
 4;A;AJ;4;ynd;Clara hat Markus, der übrigens ein Schloss erwerben will, am Vormittag gegrüßt.;Er will doch eine Villa renovieren.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
 5;A;AJ;5;yad;Nina hat Ben, der übrigens einen Bausparvertrag aufsetzen will, während der Schulzeit bewundert.;Sie hat ihn doch verabscheut.;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
-6;A;AJ;6;xnb;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen. ;Sie hat ihn aber frisiert.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
+6;A;AJ;6;xnb;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen.;Sie hat ihn aber frisiert.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
 7;A;AJ;7;xab;Basti, den übrigens Anabel letzten Sommer geheiratet hat, will Moderator werden.;Er will aber eine Pflegeausbildung anfangen.;Ist Basti Moderator?;Ja.;Nein.;B
 8;A;AJ;8;xnd;Tom, den übrigens Paulina als Buchhalter eingestellt hat, will eine Reise nach Indien machen.;Sie hat ihn doch abgelehnt.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;A;AJ;9;xad;Dominik, den übrigens Lilli beim Fußballspiel angefeuert hat, will mit Delfinen schwimmen.;Er will doch Wale beobachten.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;A;AJ;10;ynb;Julia hat Justus, der übrigens Bürgermeister werden will, als Handwerker empfohlen.;Er will aber im Gemeinderat bleiben.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
-11;A;AJ;11;yab;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt. ;Sie hat ihn aber verängstigt.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
+11;A;AJ;11;yab;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt.;Sie hat ihn aber verängstigt.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;A;AJ;12;ynd;Hanna hat Martin, der übrigens eine Doktorarbeit schreiben will, beim Krafttraining unterstützt.;Er will doch einen Roman veröffentlichen.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;A;AJ;13;yad;Lea hat Ingo, der übrigens eine Vase töpfern will, beim Hauskauf beraten.;Sie hat ihn doch getäuscht.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
-14;A;AJ;14;xnb;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen. ;Sie hat ihn aber gemalt.;War Lisa in einem Atelier?;Ja.;Nein.;A
+14;A;AJ;14;xnb;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen.;Sie hat ihn aber gemalt.;War Lisa in einem Atelier?;Ja.;Nein.;A
 15;A;AJ;15;xab;Simon, den übrigens Paula letzte Woche befördert hat, will einen Pullover stricken.;Er will aber einen Schal häkeln.;Hat Simon einen Pullover gestrickt?;Ja.;Nein.;B
 16;A;AJ;16;xnd;Lukas, den übrigens Karla auf der Geburtstagsfeier begrüßt hat, will eine Kunstausstellung organisieren.;Sie hat ihn doch ausgeladen.;War Karla auf einer Geburtstagsfeier?;Ja.;Nein.;A
 17;A;AJ;17;xad;Peter, den übrigens Simone beim Klassenlehrer verpetzt hat, will eine Halskette basteln.;Er will doch Ohrringe anfertigen.;Will Peter ein Armband kaufen?;Ja.;Nein.;B
@@ -22,31 +22,31 @@
 21;A;AJ;21;yad;Jana hat Tim, der übrigens einen Berg besteigen will, am Mittwoch verärgert.;Sie hat ihn doch begeistert.;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;A;AJ;22;xnb;Andreas, den übrigens Sonja während eines Urlaubs verspottet hat, will eine Oper komponieren.;Sie hat ihn aber umgarnt.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;A;AJ;23;xab;Rolf, den übrigens Sonja zur Abschlussfeier begleitet hat, will an einem Gesangswettbewerb teilnehmen.;Er will aber in der Jury sitzen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
-24;A;AJ;24;xnd;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben. ;Sie hat ihn doch ermutigt.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;A;AR;1;vp;Ruckzuck hat Luisa das Gedicht vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;A;AR;2;mi;Elda hat die Kiste holterdipolter abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;A;AR;3;mp;Anouk hat das Zelt hopplahopp abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;A;AR;4;vi;Husch husch hat Lotta das Essen gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;A;AR;5;vp;Rums hat Nina die Tür zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;A;AR;6;mi;Beate hat die Schokolade zappzarapp eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;A;AR;7;mp;Celine hat das Haus tipp tapp verlassen.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;A;AR;8;vi;Zack hat Kathrin das Seil losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;A;AR;9;vp;Ruckzuck hat Luis das Rätsel gelöst.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;A;AR;10;mi;Max hat den Schrank holterdipolter aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;A;AR;11;mp;Torben hat die Wäsche hopplahopp aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;A;AR;12;vi;Husch husch hat Nico die Hausaufgaben gemacht. ;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;A;AR;13;vp;Rums hat Tom das Garagentor geschlossen. ;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;A;AR;14;mi;Lukas hat die Geschenke zappzarapp mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;A;AR;15;mp;Finn hat den Flur tipp tapp durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;A;AR;16;vi;Zack hat Peter den Vorhang aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;A;AR;17;vp;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;A;AR;18;mi;Erik hat den Fensterladen holterdipolter verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;A;AR;19;mp;Meike hat das Zimmer hopplahopp aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;A;AR;20;vi;Husch husch hat Elias das Souvenir eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;A;AR;21;vp;Rums hat Maria die Box auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;A;AR;22;mi;Noah hat den Geldbeutel zappzarapp geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;A;AR;23;mp;Elena hat das Schlafzimmer tipp tapp betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;A;AR;24;vi;Zack hat Felix den Hebel betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+24;A;AJ;24;xnd;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben.;Sie hat ihn doch ermutigt.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
+25;A;AR;1;vp;Ruckzuck hat Luisa das Gedicht vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;A;AR;2;mi;Elda hat die Kiste holterdipolter abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;A;AR;3;mp;Anouk hat das Zelt hopplahopp abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;A;AR;4;vi;Husch husch hat Lotta das Essen gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;A;AR;5;vp;Rums hat Nina die Tür zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;A;AR;6;mi;Beate hat die Schokolade zappzarapp eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;A;AR;7;mp;Celine hat das Haus tipp tapp verlassen.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;A;AR;8;vi;Zack hat Kathrin das Seil losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;A;AR;9;vp;Ruckzuck hat Luis das Rätsel gelöst.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;A;AR;10;mi;Max hat den Schrank holterdipolter aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;A;AR;11;mp;Torben hat die Wäsche hopplahopp aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;A;AR;12;vi;Husch husch hat Nico die Hausaufgaben gemacht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;A;AR;13;vp;Rums hat Tom das Garagentor geschlossen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;A;AR;14;mi;Lukas hat die Geschenke zappzarapp mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;A;AR;15;mp;Finn hat den Flur tipp tapp durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;A;AR;16;vi;Zack hat Peter den Vorhang aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;A;AR;17;vp;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;A;AR;18;mi;Erik hat den Fensterladen holterdipolter verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;A;AR;19;mp;Meike hat das Zimmer hopplahopp aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;A;AR;20;vi;Husch husch hat Elias das Souvenir eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;A;AR;21;vp;Rums hat Maria die Box auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;A;AR;22;mi;Noah hat den Geldbeutel zappzarapp geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;A;AR;23;mp;Elena hat das Schlafzimmer tipp tapp betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;A;AR;24;vi;Zack hat Felix den Hebel betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;A;AH;1;gs;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, groß wird die Feier eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;A;AH;2;gt;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marie verreisen?;Ja.;Nein.;A
 51;A;AH;3;gs;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, sie wollte eigentlich den Abend alleine zu Hause verbringen.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -71,7 +71,7 @@
 70;A;AH;22;ut;Isabell wird dieses Wochenende zu Hause bleiben. Um das ganz klar zu sagen: Sie ist im Moment etwas unpässlich.;Nein, ganz klar fand ich das eigentlich nicht gesagt.;Bleibt Isabell dieses Wochenende zuhause?;Ja.;Nein.;A
 71;A;AH;23;us;Jochen wird seine Arbeitszeiten ändern. Um das ganz klar zu sagen: Die frühen Schichten sind etwas unpraktisch.;Nein, die späten Schichten fand er eigentlich blöder.;Behält Jochen seine Arbeitszeiten bei?;Ja.;Nein.;B
 72;A;AH;24;ut;Janina wird künftig häufiger mit dem Zug fahren. Um das ganz klar zu sagen: Autofahren macht ihr derzeit wenig Spaß.;Nein, ganz klar fand ich das eigentlich nicht gesagt.;Wird Janina in Zukunft häufiger mit dem Zug fahren?;Ja.;Nein.;A
-1;B;BJ;1;xnd;Klaus, den übrigens Petra gestern getroffen hat, will nach England auswandern. ;Sie hat ihn doch angerufen. ;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
+1;B;BJ;1;xnd;Klaus, den übrigens Petra gestern getroffen hat, will nach England auswandern. ;Sie hat ihn doch angerufen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
 2;B;BJ;2;xad;Paul, den übrigens Alexa bei einer Verkehrskontrolle angehalten hat, will ein Baumhaus bauen.;Er will doch einen Apfelbaum pflanzen.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
 3;B;BJ;3;ynb;Sabrina hat Luis, der übrigens den Rektorposten übernehmen will, vom Flughafen abgeholt.;Er will aber in den Ruhestand gehen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
 4;B;BJ;4;yab;Clara hat Markus, der übrigens ein Schloss erwerben will, am Vormittag gegrüßt.;Sie hat ihn aber gemieden.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
@@ -81,44 +81,44 @@
 8;B;BJ;8;xab;Tom, den übrigens Paulina als Buchhalter eingestellt hat, will eine Reise nach Indien machen.;Er will aber in in Schweden zelten.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;B;BJ;9;xnd;Dominik, den übrigens Lilli beim Fußballspiel angefeuert hat, will mit Delfinen schwimmen.;Sie hat ihn doch ignoriert.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;B;BJ;10;xad;Justus, den übrigens Julia als Handwerker empfohlen hat, will Bürgermeister werden.;Er will doch im Gemeinderat bleiben.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
-11;B;BJ;11;ynb;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt. ;Er will aber eine Kreuzfahrt unternehmen.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
+11;B;BJ;11;ynb;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt.;Er will aber eine Kreuzfahrt unternehmen.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;B;BJ;12;yab;Hanna hat Martin, der übrigens eine Doktorarbeit schreiben will, beim Krafttraining unterstützt.;Sie hat ihn aber gestört.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;B;BJ;13;ynd;Lea hat Ingo, der übrigens eine Vase töpfern will, beim Hauskauf beraten.;Er will doch Seife herstellen.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
 14;B;BJ;14;yad;Lisa hat Kai, der übrigens ein Museum besuchen will, im Atelier fotografiert.;Sie hat ihn doch gemalt.;War Lisa in einem Atelier?;Ja.;Nein.;A
 15;B;BJ;15;xnb;Simon, den übrigens Paula letzte Woche befördert hat, will einen Pullover stricken.;Sie hat ihn aber beurlaubt.;Hat Simon einen Pullover gestrickt?;Ja.;Nein.;B
 16;B;BJ;16;xab;Lukas, den übrigens Karla auf der Geburtstagsfeier begrüßt hat, will eine Kunstausstellung organisieren.;Er will aber einen Maskenball veranstalten.;War Karla auf einer Geburtstagsfeier?;Ja.;Nein.;A
 17;B;BJ;17;xnd;Peter, den übrigens Simone beim Klassenlehrer verpetzt hat, will eine Halskette basteln.;Sie hat ihn doch gedeckt.;Will Peter ein Armband kaufen?;Ja.;Nein.;B
-18;B;BJ;18;xad;Tom, den übrigens Emily beim Wettrennen angespornt hat, will ein Theaterstück inszenieren.;Er will doch eine Fernsehsendung drehen. ;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
+18;B;BJ;18;xad;Tom, den übrigens Emily beim Wettrennen angespornt hat, will ein Theaterstück inszenieren.;Er will doch eine Fernsehsendung drehen.;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
 19;B;BJ;19;ynb;Maria hat Till, der übrigens aus Argentinien zurückkommen will, als Jugendliche verehrt.;Er will aber nach Kanada weiterreisen.;Ist Till gerade in Deutschland?;Ja.;Nein.;B
 20;B;BJ;20;yab;Luisa hat Jonas, der übrigens einen Oldtimer ersteigern will, auf der Arbeit kritisiert.;Sie hat ihn aber gelobt.;Hat Luisa eine Arbeitsstelle?;Ja.;Nein.;A
-21;B;BJ;21;ynd;Jana hat Tim, der übrigens einen Berg besteigen will, am Mittwoch verärgert.;Er will doch einen Tauchgang absolvieren.  ;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
+21;B;BJ;21;ynd;Jana hat Tim, der übrigens einen Berg besteigen will, am Mittwoch verärgert.;Er will doch einen Tauchgang absolvieren. ;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;B;BJ;22;yad;Sonja hat Andreas, der übrigens eine Oper komponieren will, während eines Urlaubs verspottet.;Sie hat ihn doch umgarnt.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;B;BJ;23;xnb;Rolf, den übrigens Sonja zur Abschlussfeier begleitet hat, will an einem Gesangswettbewerb teilnehmen.;Sie hat ihn aber sitzengelassen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
-24;B;BJ;24;xab;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben. ;Er will aber als Fotograf arbeiten.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;B;BR;1;vi;Ruckzuck hat Luisa das Gedicht vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;B;BR;2;vp;Holterdipolter hat Elda die Kiste abgestellt. ;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;B;BR;3;mi;Anouk hat das Zelt hopplahopp abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;B;BR;4;mp;Lotta hat das Essen husch husch gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;B;BR;5;vi;Rums hat Nina die Tür zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;B;BR;6;vp;Zappzarapp hat Beate die Schokolade eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;B;BR;7;mi;Celine hat das Haus tipp tapp verlassen.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;B;BR;8;mp;Kathrin hat das Seil zack losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;B;BR;9;vi;Ruckzuck hat Luis das Rätsel gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;B;BR;10;vp;Holterdipolter hat Max den Schrank aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;B;BR;11;mi;Torben hat die Wäsche hopplahopp aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;B;BR;12;mp;Nico hat die Hausaufgaben husch husch gemacht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;B;BR;13;vi;Rums hat Tom das Garagentor geschlossen. ;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;B;BR;14;vp;Zappzarapp hat Lukas die Geschenke mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;B;BR;15;mi;Finn hat den Flur tipp tapp durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;B;BR;16;mp;Peter hat den Vorhang zack aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;B;BR;17;vi;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;B;BR;18;vp;Holterdipolter hat Erik den Fensterladen verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;B;BR;19;mi;Meike hat das Zimmer hopplahopp aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;B;BR;20;mp;Elias hat das Souvenir husch husch eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;B;BR;21;vi;Rums hat Maria die Box auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;B;BR;22;vp;Zappzarapp hat Noah den Geldbeutel geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;B;BR;23;mi;Elena hat das Schlafzimmer tipp tapp betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;B;BR;24;mp;Felix hat den Hebel zack betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+24;B;BJ;24;xab;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben.;Er will aber als Fotograf arbeiten.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
+25;B;BR;1;vi;Ruckzuck hat Luisa das Gedicht vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;B;BR;2;vp;Holterdipolter hat Elda die Kiste abgestellt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;B;BR;3;mi;Anouk hat das Zelt hopplahopp abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;B;BR;4;mp;Lotta hat das Essen husch husch gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;B;BR;5;vi;Rums hat Nina die Tür zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;B;BR;6;vp;Zappzarapp hat Beate die Schokolade eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;B;BR;7;mi;Celine hat das Haus tipp tapp verlassen.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;B;BR;8;mp;Kathrin hat das Seil zack losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;B;BR;9;vi;Ruckzuck hat Luis das Rätsel gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;B;BR;10;vp;Holterdipolter hat Max den Schrank aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;B;BR;11;mi;Torben hat die Wäsche hopplahopp aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;B;BR;12;mp;Nico hat die Hausaufgaben husch husch gemacht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;B;BR;13;vi;Rums hat Tom das Garagentor geschlossen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;B;BR;14;vp;Zappzarapp hat Lukas die Geschenke mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;B;BR;15;mi;Finn hat den Flur tipp tapp durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;B;BR;16;mp;Peter hat den Vorhang zack aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;B;BR;17;vi;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;B;BR;18;vp;Holterdipolter hat Erik den Fensterladen verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;B;BR;19;mi;Meike hat das Zimmer hopplahopp aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;B;BR;20;mp;Elias hat das Souvenir husch husch eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;B;BR;21;vi;Rums hat Maria die Box auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;B;BR;22;vp;Zappzarapp hat Noah den Geldbeutel geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;B;BR;23;mi;Elena hat das Schlafzimmer tipp tapp betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;B;BR;24;mp;Felix hat den Hebel zack betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;B;BH;1;gt;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;B;BH;2;gs;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, sie wird eigentlich länger unterwegs sein.;Will Marie verreisen?;Ja.;Nein.;A
 51;B;BH;3;gt;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, genauer fand ich die Information eigentlich nicht.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -153,7 +153,7 @@
 8;C;CJ;8;xnb;Tom, den übrigens Paulina als Buchhalter eingestellt hat, will eine Reise nach Indien machen.;Sie hat ihn aber abgelehnt.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;C;CJ;9;xab;Dominik, den übrigens Lilli beim Fußballspiel angefeuert hat, will mit Delfinen schwimmen.;Er will aber Wale beobachten.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;C;CJ;10;xnd;Justus, den übrigens Julia als Handwerker empfohlen hat, will Bürgermeister werden.;Sie hat ihn doch schlechtgeredet.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
-11;C;CJ;11;xad;Moritz, den übrigens Natascha vor einer Prüfung beruhigt hat, will auf die Malediven fliegen.;Er will doch eine Kreuzfahrt unternehmen. ;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
+11;C;CJ;11;xad;Moritz, den übrigens Natascha vor einer Prüfung beruhigt hat, will auf die Malediven fliegen.;Er will doch eine Kreuzfahrt unternehmen.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;C;CJ;12;ynb;Hanna hat Martin, der übrigens eine Doktorarbeit schreiben will, beim Krafttraining unterstützt.;Er will aber einen Roman veröffentlichen.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;C;CJ;13;yab;Lea hat Ingo, der übrigens eine Vase töpfern will, beim Hauskauf beraten.;Sie hat ihn aber getäuscht.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
 14;C;CJ;14;ynd;Lisa hat Kai, der übrigens ein Museum besuchen will, im Atelier fotografiert.;Er will doch am Strand spazieren gehen.;War Lisa in einem Atelier?;Ja.;Nein.;A
@@ -166,31 +166,31 @@
 21;C;CJ;21;yab;Jana hat Tim, der übrigens einen Berg besteigen will, am Mittwoch verärgert.;Sie hat ihn aber begeistert.;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;C;CJ;22;ynd;Sonja hat Andreas, der übrigens eine Oper komponieren will, während eines Urlaubs verspottet.;Er will doch einer Rockband beitreten.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;C;CJ;23;yad;Sonja hat Rolf, der übrigens an einem Gesangswettbewerb teilnehmen will, zur Abschlussfeier begleitet.;Sie hat ihn doch sitzengelassen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
-24;C;CJ;24;xnb;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben. ;Sie hat ihn aber ermutigt.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;C;CR;1;mp;Luisa hat das Gedicht ruckzuck vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;C;CR;2;vi;Holterdipolter hat Elda die Kiste abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;C;CR;3;vp;Hopplahopp hat Anouk das Zelt abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;C;CR;4;mi;Lotta hat das Essen husch husch gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;C;CR;5;mp;Nina hat die Tür rums zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;C;CR;6;vi;Zappzarapp hat Beate die Schokolade eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;C;CR;7;vp;Tipp tapp hat Celine hat das Haus leise verlassen. ;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;C;CR;8;mi;Kathrin hat das Seil zack losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;C;CR;9;mp;Luis hat das Rätsel ruckzuck gelöst. ;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;C;CR;10;vi;Holterdipolter hat Max den Schrank aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;C;CR;11;vp;Hopplahopp hat Torben die Wäsche aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;C;CR;12;mi;Nico hat die Hausaufgaben husch husch gemacht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;C;CR;13;mp;Tom hat das Garagentor rums geschlossen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;C;CR;14;vi;Zappzarapp hat Lukas die Geschenke mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;C;CR;15;vp;Tipp tapp hat Finn den Flur durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;C;CR;16;mi;Peter hat den Vorhang zack aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;C;CR;17;mp;Nadine hat die T-Shirts ruckzuck zusammengelegt. ;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;C;CR;18;vi;Holterdipolter hat Erik den Fensterladen verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;C;CR;19;vp;Hopplahopp hat Meike das Zimmer aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;C;CR;20;mi;Elias hat das Souvenir husch husch eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;C;CR;21;mp;Maria hat die Box rums auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;C;CR;22;vi;Zappzarapp hat Noah den Geldbeutel geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;C;CR;23;vp;Tipp tapp hat Elena das Schlafzimmer betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;C;CR;24;mi;Felix hat den Hebel zack betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+24;C;CJ;24;xnb;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben.;Sie hat ihn aber ermutigt.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
+25;C;CR;1;mp;Luisa hat das Gedicht ruckzuck vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;C;CR;2;vi;Holterdipolter hat Elda die Kiste abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;C;CR;3;vp;Hopplahopp hat Anouk das Zelt abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;C;CR;4;mi;Lotta hat das Essen husch husch gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;C;CR;5;mp;Nina hat die Tür rums zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;C;CR;6;vi;Zappzarapp hat Beate die Schokolade eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;C;CR;7;vp;Tipp tapp hat Celine hat das Haus leise verlassen.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;C;CR;8;mi;Kathrin hat das Seil zack losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;C;CR;9;mp;Luis hat das Rätsel ruckzuck gelöst.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;C;CR;10;vi;Holterdipolter hat Max den Schrank aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;C;CR;11;vp;Hopplahopp hat Torben die Wäsche aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;C;CR;12;mi;Nico hat die Hausaufgaben husch husch gemacht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;C;CR;13;mp;Tom hat das Garagentor rums geschlossen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;C;CR;14;vi;Zappzarapp hat Lukas die Geschenke mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;C;CR;15;vp;Tipp tapp hat Finn den Flur durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;C;CR;16;mi;Peter hat den Vorhang zack aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;C;CR;17;mp;Nadine hat die T-Shirts ruckzuck zusammengelegt.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;C;CR;18;vi;Holterdipolter hat Erik den Fensterladen verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;C;CR;19;vp;Hopplahopp hat Meike das Zimmer aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;C;CR;20;mi;Elias hat das Souvenir husch husch eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;C;CR;21;mp;Maria hat die Box rums auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;C;CR;22;vi;Zappzarapp hat Noah den Geldbeutel geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;C;CR;23;vp;Tipp tapp hat Elena das Schlafzimmer betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;C;CR;24;mi;Felix hat den Hebel zack betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;C;AH;1;gs;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, groß wird die Feier eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;C;AH;2;gt;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marie verreisen?;Ja.;Nein.;A
 51;C;AH;3;gs;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, sie wollte eigentlich den Abend alleine zu Hause verbringen.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -215,54 +215,54 @@
 70;C;AH;22;ut;Isabell wird dieses Wochenende zu Hause bleiben. Um das ganz klar zu sagen: Sie ist im Moment etwas unpässlich.;Nein, ganz klar fand ich das eigentlich nicht gesagt.;Bleibt Isabell dieses Wochenende zuhause?;Ja.;Nein.;A
 71;C;AH;23;us;Jochen wird seine Arbeitszeiten ändern. Um das ganz klar zu sagen: Die frühen Schichten sind etwas unpraktisch.;Nein, die späten Schichten fand er eigentlich blöder.;Behält Jochen seine Arbeitszeiten bei?;Ja.;Nein.;B
 72;C;AH;24;ut;Janina wird künftig häufiger mit dem Zug fahren. Um das ganz klar zu sagen: Autofahren macht ihr derzeit wenig Spaß.;Nein, ganz klar fand ich das eigentlich nicht gesagt.;Wird Janina in Zukunft häufiger mit dem Zug fahren?;Ja.;Nein.;A
-1;D;DJ;1;xnb;Klaus, den übrigens Petra gestern getroffen hat, will nach England auswandern. ;Sie hat ihn aber angerufen. ;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
+1;D;DJ;1;xnb;Klaus, den übrigens Petra gestern getroffen hat, will nach England auswandern.;Sie hat ihn aber angerufen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
 2;D;DJ;2;xab;Paul, den übrigens Alexa bei einer Verkehrskontrolle angehalten hat, will ein Baumhaus bauen.;Er will aber einen Apfelbaum pflanzen.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
-3;D;DJ;3;xnd;Luis, den übrigens Sabrina vom Flughafen abgeholt hat, will den Rektorposten übernehmen.;Sie hat ihn doch vergessen. ;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
+3;D;DJ;3;xnd;Luis, den übrigens Sabrina vom Flughafen abgeholt hat, will den Rektorposten übernehmen.;Sie hat ihn doch vergessen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
 4;D;DJ;4;xad;Markus, den übrigens Clara am Vormittag gegrüßt hat, will ein Schloss erwerben.;Er will doch eine Villa renovieren.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
 5;D;DJ;5;ynb;Nina hat Ben, der übrigens einen Bausparvertrag aufsetzen will, während der Schulzeit bewundert.;Er will aber eine Versicherung abschließen.;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
 6;D;DJ;6;yab;Ines hat Frederik, der übrigens einen Sportwagen kaufen will, für Karneval geschminkt.;Sie hat ihn aber frisiert.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
-7;D;DJ;7;ynd;Anabel hat Basti, der übrigens Moderator werden will, letzten Sommer geheiratet.;Er will doch eine Pflegeausbildung anfangen. ;Ist Basti Moderator?;Ja.;Nein.;B
+7;D;DJ;7;ynd;Anabel hat Basti, der übrigens Moderator werden will, letzten Sommer geheiratet.;Er will doch eine Pflegeausbildung anfangen.;Ist Basti Moderator?;Ja.;Nein.;B
 8;D;DJ;8;yad;Paulina hat Tom, der übrigens eine Reise nach Indien machen will, als Buchhalter eingestellt.;Sie hat ihn doch abgelehnt.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;D;DJ;9;xnb;Dominik, den übrigens Lilli beim Fußballspiel angefeuert hat, will mit Delfinen schwimmen.;Sie hat ihn aber ignoriert.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;D;DJ;10;xab;Justus, den übrigens Julia als Handwerker empfohlen hat, will Bürgermeister werden.;Er will aber im Gemeinderat bleiben.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
 11;D;DJ;11;xnd;Moritz, den übrigens Natascha vor einer Prüfung beruhigt hat, will auf die Malediven fliegen.;Sie hat ihn doch verängstigt.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;D;DJ;12;xad;Martin, den übrigens Hanna beim Krafttraining unterstützt hat, will eine Doktorarbeit schreiben.;Er will doch einen Roman veröffentlichen.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;D;DJ;13;ynb;Lea hat Ingo, der übrigens eine Vase töpfern will, beim Hauskauf beraten.;Er will aber Seife herstellen.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
-14;D;DJ;14;yab;Lisa hat Kai, der übrigens ein Museum besuchen will, im Atelier fotografiert.;Sie hat ihn aber gemalt. ;War Lisa in einem Atelier?;Ja.;Nein.;A
+14;D;DJ;14;yab;Lisa hat Kai, der übrigens ein Museum besuchen will, im Atelier fotografiert.;Sie hat ihn aber gemalt.;War Lisa in einem Atelier?;Ja.;Nein.;A
 15;D;DJ;15;ynd;Paula hat Simon, der übrigens einen Pullover stricken will, letzte Woche befördert.;Er will doch einen Schal häkeln.;Hat Simon einen Pullover gestrickt?;Ja.;Nein.;B
 16;D;DJ;16;yad;Karla hat Lukas, der übrigens eine Kunstausstellung organisieren will, auf der Geburtstagsfeier begrüßt.;Sie hat ihn doch ausgeladen.;War Karla auf einer Geburtstagsfeier?;Ja.;Nein.;A
 17;D;DJ;17;xnb;Peter, den übrigens Simone beim Klassenlehrer verpetzt hat, will eine Halskette basteln.;Sie hat ihn aber gedeckt.;Will Peter ein Armband kaufen?;Ja.;Nein.;B
 18;D;DJ;18;xab;Tom, den übrigens Emily beim Wettrennen angespornt hat, will ein Theaterstück inszenieren.;Er will aber eine Fernsehsendung drehen.;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
 19;D;DJ;19;xnd;Till, den übrigens Maria als Jugendliche verehrt hat, will aus Argentinien zurückkommen.;Sie hat ihn doch gehasst.;Ist Till gerade in Deutschland?;Ja.;Nein.;B
-20;D;DJ;20;xad;Jonas, den übrigens Luisa auf der Arbeit kritisiert hat, will einen Oldtimer ersteigern.;Er will doch ein Segelboot mieten. ;Hat Luisa eine Arbeitsstelle?;Ja.;Nein.;A
-21;D;DJ;21;ynb;Jana hat Tim, der übrigens einen Berg besteigen will, am Mittwoch verärgert.;Er will aber einen Tauchgang absolvieren. ;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
+20;D;DJ;20;xad;Jonas, den übrigens Luisa auf der Arbeit kritisiert hat, will einen Oldtimer ersteigern.;Er will doch ein Segelboot mieten.;Hat Luisa eine Arbeitsstelle?;Ja.;Nein.;A
+21;D;DJ;21;ynb;Jana hat Tim, der übrigens einen Berg besteigen will, am Mittwoch verärgert.;Er will aber einen Tauchgang absolvieren.;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;D;DJ;22;yab;Sonja hat Andreas, der übrigens eine Oper komponieren will, während eines Urlaubs verspottet.;Sie hat ihn aber umgarnt.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;D;DJ;23;ynd;Sonja hat Rolf, der übrigens an einem Gesangswettbewerb teilnehmen will, zur Abschlussfeier begleitet.;Er will doch in der Jury sitzen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
 24;D;DJ;24;yad;Cindy hat Karl, der übrigens eine Modelkarriere anstreben will, während eines Vortrags schikaniert.;Sie hat ihn doch ermutigt.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;D;DR;1;mi;Luisa hat das Gedicht ruckzuck vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;D;DR;2;mp;Elda hat die Kiste holterdipolter abgestellt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;D;DR;3;vi;Hopplahopp hat Anouk das Zelt  abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;D;DR;4;vp;Husch husch hat Lotta das Essen gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;D;DR;5;mi;Nina hat die Tür rums zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;D;DR;6;mp;Beate hat die Schokolade zappzarapp eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;D;DR;7;vi;Tipp tapp hat Celine hat das Haus leise verlassen. ;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;D;DR;8;vp;Zack hat Kathrin das Seil losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;D;DR;9;mi;Luis hat das Rätsel ruckzuck gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;D;DR;10;mp;Max hat den Schrank holterdipolter aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;D;DR;11;vi;Hopplahopp hat Torben die Wäsche aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;D;DR;12;vp;Husch husch hat Nico die Hausaufgaben gemacht. ;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;D;DR;13;mi;Tom hat das Garagentor rums geschlossen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;D;DR;14;mp;Lukas hat die Geschenke zappzarapp mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;D;DR;15;vi;Tipp tapp hat Finn den Flur durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;D;DR;16;vp;Zack hat Peter den Vorhang aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;D;DR;17;mi;Nadine hat die T-Shirts ruckzuck zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;D;DR;18;mp;Erik hat den Fensterladen holterdipolter verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;D;DR;19;vi;Hopplahopp hat Meike das Zimmer aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;D;DR;20;vp;Husch husch hat Elias das Souvenir eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;D;DR;21;mi;Maria hat die Box rums auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;D;DR;22;mp;Noah hat den Geldbeutel zappzarapp geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;D;DR;23;vi;Tipp tapp hat Elena das Schlafzimmer betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;D;DR;24;vp;Zack hat Felix den Hebel betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+25;D;DR;1;mi;Luisa hat das Gedicht ruckzuck vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;D;DR;2;mp;Elda hat die Kiste holterdipolter abgestellt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;D;DR;3;vi;Hopplahopp hat Anouk das Zelt  abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;D;DR;4;vp;Husch husch hat Lotta das Essen gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;D;DR;5;mi;Nina hat die Tür rums zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;D;DR;6;mp;Beate hat die Schokolade zappzarapp eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;D;DR;7;vi;Tipp tapp hat Celine hat das Haus leise verlassen.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;D;DR;8;vp;Zack hat Kathrin das Seil losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;D;DR;9;mi;Luis hat das Rätsel ruckzuck gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;D;DR;10;mp;Max hat den Schrank holterdipolter aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;D;DR;11;vi;Hopplahopp hat Torben die Wäsche aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;D;DR;12;vp;Husch husch hat Nico die Hausaufgaben gemacht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;D;DR;13;mi;Tom hat das Garagentor rums geschlossen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;D;DR;14;mp;Lukas hat die Geschenke zappzarapp mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;D;DR;15;vi;Tipp tapp hat Finn den Flur durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;D;DR;16;vp;Zack hat Peter den Vorhang aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;D;DR;17;mi;Nadine hat die T-Shirts ruckzuck zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;D;DR;18;mp;Erik hat den Fensterladen holterdipolter verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;D;DR;19;vi;Hopplahopp hat Meike das Zimmer aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;D;DR;20;vp;Husch husch hat Elias das Souvenir eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;D;DR;21;mi;Maria hat die Box rums auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;D;DR;22;mp;Noah hat den Geldbeutel zappzarapp geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;D;DR;23;vi;Tipp tapp hat Elena das Schlafzimmer betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;D;DR;24;vp;Zack hat Felix den Hebel betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;D;BH;1;gt;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;D;BH;2;gs;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, sie wird eigentlich länger unterwegs sein.;Will Marie verreisen?;Ja.;Nein.;A
 51;D;BH;3;gt;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, genauer fand ich die Information eigentlich nicht.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -287,10 +287,10 @@
 70;D;BH;22;us;Isabell wird dieses Wochenende zu Hause bleiben. Um das ganz klar zu sagen: Sie ist im Moment etwas unpässlich.;Nein, sie war vorhin eigentlich noch fit.;Bleibt Isabell dieses Wochenende zuhause?;Ja.;Nein.;A
 71;D;BH;23;ut;Jochen wird seine Arbeitszeiten ändern. Um das ganz klar zu sagen: Die frühen Schichten sind etwas unpraktisch.;Nein, ganz klar fand ich das eigentlich nicht gesagt.;Behält Jochen seine Arbeitszeiten bei?;Ja.;Nein.;B
 72;D;BH;24;us;Janina wird künftig häufiger mit dem Zug fahren. Um das ganz klar zu sagen: Autofahren macht ihr derzeit wenig Spaß.;Nein, sie hat eigentlich derzeit keinen Führerschein.;Wird Janina in Zukunft häufiger mit dem Zug fahren?;Ja.;Nein.;A
-1;E;EJ;1;yad;Petra hat Klaus, der übrigens nach England auswandern will, gestern getroffen.;Sie hat ihn doch angerufen. ;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
+1;E;EJ;1;yad;Petra hat Klaus, der übrigens nach England auswandern will, gestern getroffen.;Sie hat ihn doch angerufen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
 2;E;EJ;2;xnb;Paul, den übrigens Alexa bei einer Verkehrskontrolle angehalten hat, will ein Baumhaus bauen.;Sie hat ihn aber durchgewunken.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
 3;E;EJ;3;xab;Luis, den übrigens Sabrina vom Flughafen abgeholt hat, will den Rektorposten übernehmen.;Er will aber in den Ruhestand gehen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
-4;E;EJ;4;xnd;Markus, den übrigens Clara am Vormittag gegrüßt hat, will ein Schloss erwerben.;Sie hat ihn doch gemieden. ;War Clara vormittags unterwegs? ;Ja.;Nein.;A
+4;E;EJ;4;xnd;Markus, den übrigens Clara am Vormittag gegrüßt hat, will ein Schloss erwerben.;Sie hat ihn doch gemieden.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
 5;E;EJ;5;xad;Ben, den übrigens Nina während der Schulzeit bewundert hat, will einen Bausparvertrag aufsetzen.;Er will doch eine Versicherung abschließen.;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
 6;E;EJ;6;ynb;Ines hat Frederik, der übrigens einen Sportwagen kaufen will, für Karneval geschminkt.;Er will aber einen Wohnwagen ausbauen.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
 7;E;EJ;7;yab;Anabel hat Basti, der übrigens Moderator werden will, letzten Sommer geheiratet.;Sie hat ihn aber abserviert.;Ist Basti Moderator?;Ja.;Nein.;B
@@ -307,34 +307,34 @@
 18;E;EJ;18;xnb;Tom, den übrigens Emily beim Wettrennen angespornt hat, will ein Theaterstück inszenieren.;Sie hat ihn aber ausgebuht.;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
 19;E;EJ;19;xab;Till, den übrigens Maria als Jugendliche verehrt hat, will aus Argentinien zurückkommen.;Er will aber nach Kanada weiterreisen.;Ist Till gerade in Deutschland?;Ja.;Nein.;B
 20;E;EJ;20;xnd;Jonas, den übrigens Luisa auf der Arbeit kritisiert hat, will einen Oldtimer ersteigern.;Sie hat ihn doch gelobt.;Hat Luisa eine Arbeitsstelle?;Ja.;Nein.;A
-21;E;EJ;21;xad;Tim, den übrigens Jana am Mittwoch verärgert hat, will einen Berg besteigen.;Er will doch einen Tauchgang absolvieren.  ;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
+21;E;EJ;21;xad;Tim, den übrigens Jana am Mittwoch verärgert hat, will einen Berg besteigen.;Er will doch einen Tauchgang absolvieren. ;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;E;EJ;22;ynb;Sonja hat Andreas, der übrigens eine Oper komponieren will, während eines Urlaubs verspottet.;Er will aber einer Rockband beitreten.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;E;EJ;23;yab;Sonja hat Rolf, der übrigens an einem Gesangswettbewerb teilnehmen will, zur Abschlussfeier begleitet.;Sie hat ihn aber sitzengelassen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
 24;E;EJ;24;ynd;Cindy hat Karl, der übrigens eine Modelkarriere anstreben will, während eines Vortrags schikaniert.;Er will doch als Fotograf arbeiten.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;E;AR;1;vp;Ruckzuck hat Luisa das Gedicht vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;E;AR;2;mi;Elda hat die Kiste holterdipolter abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;E;AR;3;mp;Anouk hat das Zelt hopplahopp abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;E;AR;4;vi;Husch husch hat Lotta das Essen gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;E;AR;5;vp;Rums hat Nina die Tür zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;E;AR;6;mi;Beate hat die Schokolade zappzarapp eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;E;AR;7;mp;Celine hat das Haus tipp tapp verlassen.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;E;AR;8;vi;Zack hat Kathrin das Seil losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;E;AR;9;vp;Ruckzuck hat Luis das Rätsel gelöst.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;E;AR;10;mi;Max hat den Schrank holterdipolter aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;E;AR;11;mp;Torben hat die Wäsche hopplahopp aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;E;AR;12;vi;Husch husch hat Nico die Hausaufgaben gemacht. ;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;E;AR;13;vp;Rums hat Tom das Garagentor geschlossen. ;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;E;AR;14;mi;Lukas hat die Geschenke zappzarapp mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;E;AR;15;mp;Finn hat den Flur tipp tapp durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;E;AR;16;vi;Zack hat Peter den Vorhang aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;E;AR;17;vp;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;E;AR;18;mi;Erik hat den Fensterladen holterdipolter verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;E;AR;19;mp;Meike hat das Zimmer hopplahopp aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;E;AR;20;vi;Husch husch hat Elias das Souvenir eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;E;AR;21;vp;Rums hat Maria die Box auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;E;AR;22;mi;Noah hat den Geldbeutel zappzarapp geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;E;AR;23;mp;Elena hat das Schlafzimmer tipp tapp betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;E;AR;24;vi;Zack hat Felix den Hebel betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+25;E;AR;1;vp;Ruckzuck hat Luisa das Gedicht vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;E;AR;2;mi;Elda hat die Kiste holterdipolter abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;E;AR;3;mp;Anouk hat das Zelt hopplahopp abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;E;AR;4;vi;Husch husch hat Lotta das Essen gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;E;AR;5;vp;Rums hat Nina die Tür zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;E;AR;6;mi;Beate hat die Schokolade zappzarapp eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;E;AR;7;mp;Celine hat das Haus tipp tapp verlassen.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;E;AR;8;vi;Zack hat Kathrin das Seil losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;E;AR;9;vp;Ruckzuck hat Luis das Rätsel gelöst.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;E;AR;10;mi;Max hat den Schrank holterdipolter aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;E;AR;11;mp;Torben hat die Wäsche hopplahopp aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;E;AR;12;vi;Husch husch hat Nico die Hausaufgaben gemacht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;E;AR;13;vp;Rums hat Tom das Garagentor geschlossen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;E;AR;14;mi;Lukas hat die Geschenke zappzarapp mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;E;AR;15;mp;Finn hat den Flur tipp tapp durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;E;AR;16;vi;Zack hat Peter den Vorhang aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;E;AR;17;vp;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;E;AR;18;mi;Erik hat den Fensterladen holterdipolter verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;E;AR;19;mp;Meike hat das Zimmer hopplahopp aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;E;AR;20;vi;Husch husch hat Elias das Souvenir eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;E;AR;21;vp;Rums hat Maria die Box auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;E;AR;22;mi;Noah hat den Geldbeutel zappzarapp geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;E;AR;23;mp;Elena hat das Schlafzimmer tipp tapp betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;E;AR;24;vi;Zack hat Felix den Hebel betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;E;AH;1;gs;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, groß wird die Feier eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;E;AH;2;gt;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marie verreisen?;Ja.;Nein.;A
 51;E;AH;3;gs;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, sie wollte eigentlich den Abend alleine zu Hause verbringen.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -363,19 +363,19 @@
 2;F;FJ;2;yad;Alexa hat Paul, der übrigens ein Baumhaus bauen will, bei einer Verkehrskontrolle angehalten.;Sie hat ihn doch durchgewunken.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
 3;F;FJ;3;xnb;Luis, den übrigens Sabrina vom Flughafen abgeholt hat, will den Rektorposten übernehmen.;Sie hat ihn aber vergessen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
 4;F;FJ;4;xab;Markus, den übrigens Clara am Vormittag gegrüßt hat, will ein Schloss erwerben.;Er will aber eine Villa renovieren.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
-5;F;FJ;5;xnd;Ben, den übrigens Nina während der Schulzeit bewundert hat, will einen Bausparvertrag aufsetzen.;Sie hat ihn doch verabscheut. ;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
-6;F;FJ;6;xad;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen. ;Er will doch einen Wohnwagen ausbauen.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
-7;F;FJ;7;ynb;Anabel hat Basti, der übrigens Moderator werden will, letzten Sommer geheiratet.;Er will aber eine Pflegeausbildung anfangen. ;Ist Basti Moderator?;Ja.;Nein.;B
+5;F;FJ;5;xnd;Ben, den übrigens Nina während der Schulzeit bewundert hat, will einen Bausparvertrag aufsetzen.;Sie hat ihn doch verabscheut.;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
+6;F;FJ;6;xad;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen.;Er will doch einen Wohnwagen ausbauen.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
+7;F;FJ;7;ynb;Anabel hat Basti, der übrigens Moderator werden will, letzten Sommer geheiratet.;Er will aber eine Pflegeausbildung anfangen.;Ist Basti Moderator?;Ja.;Nein.;B
 8;F;FJ;8;yab;Paulina hat Tom, der übrigens eine Reise nach Indien machen will, als Buchhalter eingestellt.;Sie hat ihn aber abgelehnt.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;F;FJ;9;ynd;Lilli hat Dominik, der übrigens mit Delfinen schwimmen will, beim Fußballspiel angefeuert.;Er will doch Wale beobachten.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;F;FJ;10;yad;Julia hat Justus, der übrigens Bürgermeister werden will, als Handwerker empfohlen.;Sie hat ihn doch schlechtgeredet.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
 11;F;FJ;11;xnb;Moritz, den übrigens Natascha vor einer Prüfung beruhigt hat, will auf die Malediven fliegen.;Sie hat ihn aber verängstigt.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;F;FJ;12;xab;Martin, den übrigens Hanna beim Krafttraining unterstützt hat, will eine Doktorarbeit schreiben.;Er will aber einen Roman veröffentlichen.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;F;FJ;13;xnd;Ingo, den übrigens Lea beim Hauskauf beraten hat, will eine Vase töpfern.;Sie hat ihn doch getäuscht.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
-14;F;FJ;14;xad;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen. ;Er will doch am Strand spazieren gehen.;War Lisa in einem Atelier?;Ja.;Nein.;A
+14;F;FJ;14;xad;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen.;Er will doch am Strand spazieren gehen.;War Lisa in einem Atelier?;Ja.;Nein.;A
 15;F;FJ;15;ynb;Paula hat Simon, der übrigens einen Pullover stricken will, letzte Woche befördert.;Er will aber einen Schal häkeln.;Hat Simon einen Pullover gestrickt?;Ja.;Nein.;B
 16;F;FJ;16;yab;Karla hat Lukas, der übrigens eine Kunstausstellung organisieren will, auf der Geburtstagsfeier begrüßt.;Sie hat ihn aber ausgeladen.;War Karla auf einer Geburtstagsfeier?;Ja.;Nein.;A
-17;F;FJ;17;ynd;Simone hat Peter, der übrigens eine Halskette basteln will, beim Klassenlehrer verpetzt.;Er will doch Ohrringe anfertigen. ;Will Peter ein Armband kaufen?;Ja.;Nein.;B
+17;F;FJ;17;ynd;Simone hat Peter, der übrigens eine Halskette basteln will, beim Klassenlehrer verpetzt.;Er will doch Ohrringe anfertigen.;Will Peter ein Armband kaufen?;Ja.;Nein.;B
 18;F;FJ;18;yad;Emily hat Tom, der übrigens ein Theaterstück inszenieren will, beim Wettrennen angespornt.;Sie hat ihn doch ausgebuht.;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
 19;F;FJ;19;xnb;Till, den übrigens Maria als Jugendliche verehrt hat, will aus Argentinien zurückkommen.;Sie hat ihn aber gehasst.;Ist Till gerade in Deutschland?;Ja.;Nein.;B
 20;F;FJ;20;xab;Jonas, den übrigens Luisa auf der Arbeit kritisiert hat, will einen Oldtimer ersteigern.;Er will aber ein Segelboot mieten.;Hat Luisa eine Arbeitsstelle?;Ja.;Nein.;A
@@ -383,30 +383,30 @@
 22;F;FJ;22;xad;Andreas, den übrigens Sonja während eines Urlaubs verspottet hat, will eine Oper komponieren.;Er will doch einer Rockband beitreten.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;F;FJ;23;ynb;Sonja hat Rolf, der übrigens an einem Gesangswettbewerb teilnehmen will, zur Abschlussfeier begleitet.;Er will aber in der Jury sitzen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
 24;F;FJ;24;yab;Cindy hat Karl, der übrigens eine Modelkarriere anstreben will, während eines Vortrags schikaniert.;Sie hat ihn aber ermutigt.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;F;BR;1;vi;Ruckzuck hat Luisa das Gedicht vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;F;BR;2;vp;Holterdipolter hat Elda die Kiste abgestellt. ;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;F;BR;3;mi;Anouk hat das Zelt hopplahopp abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;F;BR;4;mp;Lotta hat das Essen husch husch gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;F;BR;5;vi;Rums hat Nina die Tür zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;F;BR;6;vp;Zappzarapp hat Beate die Schokolade eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;F;BR;7;mi;Celine hat das Haus tipp tapp verlassen.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;F;BR;8;mp;Kathrin hat das Seil zack losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;F;BR;9;vi;Ruckzuck hat Luis das Rätsel gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;F;BR;10;vp;Holterdipolter hat Max den Schrank aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;F;BR;11;mi;Torben hat die Wäsche hopplahopp aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;F;BR;12;mp;Nico hat die Hausaufgaben husch husch gemacht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;F;BR;13;vi;Rums hat Tom das Garagentor geschlossen. ;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;F;BR;14;vp;Zappzarapp hat Lukas die Geschenke mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;F;BR;15;mi;Finn hat den Flur tipp tapp durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;F;BR;16;mp;Peter hat den Vorhang zack aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;F;BR;17;vi;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;F;BR;18;vp;Holterdipolter hat Erik den Fensterladen verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;F;BR;19;mi;Meike hat das Zimmer hopplahopp aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;F;BR;20;mp;Elias hat das Souvenir husch husch eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;F;BR;21;vi;Rums hat Maria die Box auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;F;BR;22;vp;Zappzarapp hat Noah den Geldbeutel geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;F;BR;23;mi;Elena hat das Schlafzimmer tipp tapp betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;F;BR;24;mp;Felix hat den Hebel zack betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+25;F;BR;1;vi;Ruckzuck hat Luisa das Gedicht vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;F;BR;2;vp;Holterdipolter hat Elda die Kiste abgestellt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;F;BR;3;mi;Anouk hat das Zelt hopplahopp abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;F;BR;4;mp;Lotta hat das Essen husch husch gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;F;BR;5;vi;Rums hat Nina die Tür zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;F;BR;6;vp;Zappzarapp hat Beate die Schokolade eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;F;BR;7;mi;Celine hat das Haus tipp tapp verlassen.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;F;BR;8;mp;Kathrin hat das Seil zack losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;F;BR;9;vi;Ruckzuck hat Luis das Rätsel gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;F;BR;10;vp;Holterdipolter hat Max den Schrank aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;F;BR;11;mi;Torben hat die Wäsche hopplahopp aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;F;BR;12;mp;Nico hat die Hausaufgaben husch husch gemacht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;F;BR;13;vi;Rums hat Tom das Garagentor geschlossen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;F;BR;14;vp;Zappzarapp hat Lukas die Geschenke mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;F;BR;15;mi;Finn hat den Flur tipp tapp durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;F;BR;16;mp;Peter hat den Vorhang zack aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;F;BR;17;vi;Ruckzuck hat Nadine die T-Shirts zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;F;BR;18;vp;Holterdipolter hat Erik den Fensterladen verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;F;BR;19;mi;Meike hat das Zimmer hopplahopp aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;F;BR;20;mp;Elias hat das Souvenir husch husch eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;F;BR;21;vi;Rums hat Maria die Box auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;F;BR;22;vp;Zappzarapp hat Noah den Geldbeutel geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;F;BR;23;mi;Elena hat das Schlafzimmer tipp tapp betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;F;BR;24;mp;Felix hat den Hebel zack betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;F;BH;1;gt;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;F;BH;2;gs;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, sie wird eigentlich länger unterwegs sein.;Will Marie verreisen?;Ja.;Nein.;A
 51;F;BH;3;gt;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, genauer fand ich die Information eigentlich nicht.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -431,54 +431,54 @@
 70;F;BH;22;us;Isabell wird dieses Wochenende zu Hause bleiben. Um das ganz klar zu sagen: Sie ist im Moment etwas unpässlich.;Nein, sie war vorhin eigentlich noch fit.;Bleibt Isabell dieses Wochenende zuhause?;Ja.;Nein.;A
 71;F;BH;23;ut;Jochen wird seine Arbeitszeiten ändern. Um das ganz klar zu sagen: Die frühen Schichten sind etwas unpraktisch.;Nein, ganz klar fand ich das eigentlich nicht gesagt.;Behält Jochen seine Arbeitszeiten bei?;Ja.;Nein.;B
 72;F;BH;24;us;Janina wird künftig häufiger mit dem Zug fahren. Um das ganz klar zu sagen: Autofahren macht ihr derzeit wenig Spaß.;Nein, sie hat eigentlich derzeit keinen Führerschein.;Wird Janina in Zukunft häufiger mit dem Zug fahren?;Ja.;Nein.;A
-1;G;GJ;1;yab;Petra hat Klaus, der übrigens nach England auswandern will, gestern getroffen.;Sie hat ihn aber angerufen. ;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
+1;G;GJ;1;yab;Petra hat Klaus, der übrigens nach England auswandern will, gestern getroffen.;Sie hat ihn aber angerufen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
 2;G;GJ;2;ynd;Alexa hat Paul, der übrigens ein Baumhaus bauen will, bei einer Verkehrskontrolle angehalten.;Er will doch einen Apfelbaum pflanzen.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
 3;G;GJ;3;yad;Sabrina hat Luis, der übrigens den Rektorposten übernehmen will, vom Flughafen abgeholt.;Sie hat ihn doch vergessen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
 4;G;GJ;4;xnb;Markus, den übrigens Clara am Vormittag gegrüßt hat, will ein Schloss erwerben.;Sie hat ihn aber gemieden.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
 5;G;GJ;5;xab;Ben, den übrigens Nina während der Schulzeit bewundert hat, will einen Bausparvertrag aufsetzen.;Er will aber eine Versicherung abschließen.;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
-6;G;GJ;6;xnd;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen. ;Sie hat ihn doch frisiert.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
-7;G;GJ;7;xad;Basti, den übrigens Anabel letzten Sommer geheiratet hat, will Moderator werden.;Er will doch eine Pflegeausbildung anfangen. ;Ist Basti Moderator?;Ja.;Nein.;B
-8;G;GJ;8;ynb;Paulina hat Tom, der übrigens eine Reise nach Indien machen will, als Buchhalter eingestellt.;Er will aber in Schweden zelten. ;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
+6;G;GJ;6;xnd;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen.;Sie hat ihn doch frisiert.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
+7;G;GJ;7;xad;Basti, den übrigens Anabel letzten Sommer geheiratet hat, will Moderator werden.;Er will doch eine Pflegeausbildung anfangen.;Ist Basti Moderator?;Ja.;Nein.;B
+8;G;GJ;8;ynb;Paulina hat Tom, der übrigens eine Reise nach Indien machen will, als Buchhalter eingestellt.;Er will aber in Schweden zelten.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;G;GJ;9;yab;Lilli hat Dominik, der übrigens mit Delfinen schwimmen will, beim Fußballspiel angefeuert.;Sie hat ihn aber ignoriert.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;G;GJ;10;ynd;Julia hat Justus, der übrigens Bürgermeister werden will, als Handwerker empfohlen.;Er will doch im Gemeinderat bleiben.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
-11;G;GJ;11;yad;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt. ;Sie hat ihn doch verängstigt.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
+11;G;GJ;11;yad;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt.;Sie hat ihn doch verängstigt.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;G;GJ;12;xnb;Martin, den übrigens Hanna beim Krafttraining unterstützt hat, will eine Doktorarbeit schreiben.;Sie hat ihn aber gestört.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;G;GJ;13;xab;Ingo, den übrigens Lea beim Hauskauf beraten hat, will eine Vase töpfern.;Er will aber Seife herstellen.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
-14;G;GJ;14;xnd;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen. ;Sie hat ihn doch gemalt.;War Lisa in einem Atelier?;Ja.;Nein.;A
+14;G;GJ;14;xnd;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen.;Sie hat ihn doch gemalt.;War Lisa in einem Atelier?;Ja.;Nein.;A
 15;G;GJ;15;xad;Simon, den übrigens Paula letzte Woche befördert hat, will einen Pullover stricken.;Er will doch einen Schal häkeln.;Hat Simon einen Pullover gestrickt?;Ja.;Nein.;B
 16;G;GJ;16;ynb;Karla hat Lukas, der übrigens eine Kunstausstellung organisieren will, auf der Geburtstagsfeier begrüßt.;Er will aber einen Maskenball veranstalten.;War Karla auf einer Geburtstagsfeier?;Ja.;Nein.;A
 17;G;GJ;17;yab;Simone hat Peter, der übrigens eine Halskette basteln will, beim Klassenlehrer verpetzt.;Sie hat ihn aber gedeckt.;Will Peter ein Armband kaufen?;Ja.;Nein.;B
-18;G;GJ;18;ynd;Emily hat Tom, der übrigens ein Theaterstück inszenieren will, beim Wettrennen angespornt.;Er will doch eine Fernsehsendung drehen. ;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
+18;G;GJ;18;ynd;Emily hat Tom, der übrigens ein Theaterstück inszenieren will, beim Wettrennen angespornt.;Er will doch eine Fernsehsendung drehen.;War Emily bei einem Wettrennen anwesend?;Ja.;Nein.;A
 19;G;GJ;19;yad;Maria hat Till, der übrigens aus Argentinien zurückkommen will, als Jugendliche verehrt.;Sie hat ihn doch gehasst.;Ist Till gerade in Deutschland?;Ja.;Nein.;B
 20;G;GJ;20;xnb;Jonas, den übrigens Luisa auf der Arbeit kritisiert hat, will einen Oldtimer ersteigern.;Sie hat ihn aber gelobt.;Hat Luisa eine Arbeitsstelle?;Ja.;Nein.;A
 21;G;GJ;21;xab;Tim, den übrigens Jana am Mittwoch verärgert hat, will einen Berg besteigen.;Er will aber einen Tauchgang absolvieren.;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;G;GJ;22;xnd;Andreas, den übrigens Sonja während eines Urlaubs verspottet hat, will eine Oper komponieren.;Sie hat ihn doch umgarnt.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;G;GJ;23;xad;Rolf, den übrigens Sonja zur Abschlussfeier begleitet hat, will an einem Gesangswettbewerb teilnehmen.;Er will doch in der Jury sitzen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
 24;G;GJ;24;ynb;Cindy hat Karl, der übrigens eine Modelkarriere anstreben will, während eines Vortrags schikaniert.;Er will aber als Fotograf arbeiten.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;G;CR;1;mp;Luisa hat das Gedicht ruckzuck vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;G;CR;2;vi;Holterdipolter hat Elda die Kiste abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;G;CR;3;vp;Hopplahopp hat Anouk das Zelt abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;G;CR;4;mi;Lotta hat das Essen husch husch gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;G;CR;5;mp;Nina hat die Tür rums zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;G;CR;6;vi;Zappzarapp hat Beate die Schokolade eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;G;CR;7;vp;Tipp tapp hat Celine hat das Haus leise verlassen. ;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;G;CR;8;mi;Kathrin hat das Seil zack losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;G;CR;9;mp;Luis hat das Rätsel ruckzuck gelöst. ;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;G;CR;10;vi;Holterdipolter hat Max den Schrank aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;G;CR;11;vp;Hopplahopp hat Torben die Wäsche aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;G;CR;12;mi;Nico hat die Hausaufgaben husch husch gemacht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;G;CR;13;mp;Tom hat das Garagentor rums geschlossen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;G;CR;14;vi;Zappzarapp hat Lukas die Geschenke mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;G;CR;15;vp;Tipp tapp hat Finn den Flur durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;G;CR;16;mi;Peter hat den Vorhang zack aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;G;CR;17;mp;Nadine hat die T-Shirts ruckzuck zusammengelegt. ;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;G;CR;18;vi;Holterdipolter hat Erik den Fensterladen verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;G;CR;19;vp;Hopplahopp hat Meike das Zimmer aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;G;CR;20;mi;Elias hat das Souvenir husch husch eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;G;CR;21;mp;Maria hat die Box rums auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;G;CR;22;vi;Zappzarapp hat Noah den Geldbeutel geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;G;CR;23;vp;Tipp tapp hat Elena das Schlafzimmer betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;G;CR;24;mi;Felix hat den Hebel zack betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+25;G;CR;1;mp;Luisa hat das Gedicht ruckzuck vorgetragen.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;G;CR;2;vi;Holterdipolter hat Elda die Kiste abgestellt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;G;CR;3;vp;Hopplahopp hat Anouk das Zelt abgebaut.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;G;CR;4;mi;Lotta hat das Essen husch husch gekocht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;G;CR;5;mp;Nina hat die Tür rums zugeworfen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;G;CR;6;vi;Zappzarapp hat Beate die Schokolade eingesteckt.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;G;CR;7;vp;Tipp tapp hat Celine hat das Haus leise verlassen.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;G;CR;8;mi;Kathrin hat das Seil zack losgelassen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;G;CR;9;mp;Luis hat das Rätsel ruckzuck gelöst.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;G;CR;10;vi;Holterdipolter hat Max den Schrank aufgebaut.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;G;CR;11;vp;Hopplahopp hat Torben die Wäsche aufgehängt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;G;CR;12;mi;Nico hat die Hausaufgaben husch husch gemacht.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;G;CR;13;mp;Tom hat das Garagentor rums geschlossen.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;G;CR;14;vi;Zappzarapp hat Lukas die Geschenke mitgenommen.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;G;CR;15;vp;Tipp tapp hat Finn den Flur durchquert.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;G;CR;16;mi;Peter hat den Vorhang zack aufgezogen.;Ja, das stimmt, aber es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;G;CR;17;mp;Nadine hat die T-Shirts ruckzuck zusammengelegt.;Nein, das stimmt nicht, es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;G;CR;18;vi;Holterdipolter hat Erik den Fensterladen verriegelt.;Ja, das stimmt, aber es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;G;CR;19;vp;Hopplahopp hat Meike das Zimmer aufgeräumt.;Nein, das stimmt nicht, es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;G;CR;20;mi;Elias hat das Souvenir husch husch eingepackt.;Ja, das stimmt, aber es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;G;CR;21;mp;Maria hat die Box rums auf den Boden gesetzt.;Nein, das stimmt nicht, es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;G;CR;22;vi;Zappzarapp hat Noah den Geldbeutel geklaut.;Ja, das stimmt, aber es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;G;CR;23;vp;Tipp tapp hat Elena das Schlafzimmer betreten.;Nein, das stimmt nicht, es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;G;CR;24;mi;Felix hat den Hebel zack betätigt.;Ja, das stimmt, aber es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;G;AH;1;gs;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, groß wird die Feier eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;G;AH;2;gt;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marie verreisen?;Ja.;Nein.;A
 51;G;AH;3;gs;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, sie wollte eigentlich den Abend alleine zu Hause verbringen.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
@@ -506,17 +506,17 @@
 1;H;HJ;1;ynb;Petra hat Klaus, der übrigens nach England auswandern will, gestern getroffen.;Er will aber nach Australien ziehen.;Ist Klaus nach England ausgewandert? ;Ja.;Nein.;B
 2;H;HJ;2;yab;Alexa hat Paul, der übrigens ein Baumhaus bauen will, bei einer Verkehrskontrolle angehalten.;Sie hat ihn aber durchgewunken.;Führt Alexa Verkehrskontrollen durch?;Ja.;Nein.;A
 3;H;HJ;3;ynd;Sabrina hat Luis, der übrigens den Rektorposten übernehmen will, vom Flughafen abgeholt.;Er will doch in den Ruhestand gehen.;Ist Luis Rektor in einer Schule? ;Ja.;Nein.;B
-4;H;HJ;4;yad;Clara hat Markus, der übrigens ein Schloss erwerben will, am Vormittag gegrüßt.;Sie hat ihn doch gemieden. ;War Clara vormittags unterwegs? ;Ja.;Nein.;A
+4;H;HJ;4;yad;Clara hat Markus, der übrigens ein Schloss erwerben will, am Vormittag gegrüßt.;Sie hat ihn doch gemieden.;War Clara vormittags unterwegs? ;Ja.;Nein.;A
 5;H;HJ;5;xnb;Ben, den übrigens Nina während der Schulzeit bewundert hat, will einen Bausparvertrag aufsetzen.;Sie hat ihn aber verabscheut.;Hat Ben ein Haus gekauft?;Ja.;Nein.;B
-6;H;HJ;6;xab;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen. ;Er will aber einen Wohnwagen ausbauen.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
+6;H;HJ;6;xab;Frederik, den übrigens Ines für Karneval geschminkt hat, will einen Sportwagen kaufen.;Er will aber einen Wohnwagen ausbauen.;Macht Ines jemanden für Karneval zurecht?;Ja.;Nein.;A
 7;H;HJ;7;xnd;Basti, den übrigens Anabel letzten Sommer geheiratet hat, will Moderator werden.;Sie hat ihn doch abserviert.;Ist Basti Moderator?;Ja.;Nein.;B
 8;H;HJ;8;xad;Tom, den übrigens Paulina als Buchhalter eingestellt hat, will eine Reise nach Indien machen.;Er will doch in Schweden zelten.;Kann Paulina Arbeitsplätze vergeben?;Ja.;Nein.;A
 9;H;HJ;9;ynb;Lilli hat Dominik, der übrigens mit Delfinen schwimmen will, beim Fußballspiel angefeuert.;Er will aber Wale beobachten.;Ist Dominik mit Delfinen geschwommen?;Ja.;Nein.;B
 10;H;HJ;10;yab;Julia hat Justus, der übrigens Bürgermeister werden will, als Handwerker empfohlen.;Sie hat ihn aber schlechtgeredet.;Hat Julia über jemanden gesprochen?;Ja.;Nein.;A
-11;H;HJ;11;ynd;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt. ;Er will doch eine Kreuzfahrt unternehmen. ;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
+11;H;HJ;11;ynd;Natascha hat Moritz, der übrigens auf die Malediven fliegen will, vor einer Prüfung beruhigt.;Er will doch eine Kreuzfahrt unternehmen.;Ist Moritz auf die Malediven geflogen?;Ja.;Nein.;B
 12;H;HJ;12;yad;Hanna hat Martin, der übrigens eine Doktorarbeit schreiben will, beim Krafttraining unterstützt.;Sie hat ihn doch gestört.;War Hanna bei Krafttraining anwesend?;Ja.;Nein.;A
 13;H;HJ;13;xnb;Ingo, den übrigens Lea beim Hauskauf beraten hat, will eine Vase töpfern.;Sie hat ihn aber getäuscht.;Will Ingo eine Tasse töpfern?;Ja.;Nein.;B
-14;H;HJ;14;xab;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen. ;Er will aber am Stand spazieren gehen.;War Lisa in einem Atelier?;Ja.;Nein.;A
+14;H;HJ;14;xab;Kai, den übrigens Lisa im Atelier fotografiert hat, will ein Museum besuchen.;Er will aber am Strand spazieren gehen.;War Lisa in einem Atelier?;Ja.;Nein.;A
 15;H;HJ;15;xnd;Simon, den übrigens Paula letzte Woche befördert hat, will einen Pullover stricken.;Sie hat ihn doch beurlaubt.;Hat Simon einen Pullover gestrickt?;Ja.;Nein.;B
 16;H;HJ;16;xad;Lukas, den übrigens Karla auf der Geburtstagsfeier begrüßt hat, will eine Kunstausstellung organisieren.;Er will doch einen Maskenball veranstalten.;War Karla auf einer Geburtstagsfeier?;Ja.;Nein.;A
 17;H;HJ;17;ynb;Simone hat Peter, der übrigens eine Halskette basteln will, beim Klassenlehrer verpetzt.;Er will aber Ohrringe anfertigen.;Will Peter ein Armband kaufen?;Ja.;Nein.;B
@@ -526,31 +526,31 @@
 21;H;HJ;21;xnb;Tim, den übrigens Jana am Mittwoch verärgert hat, will einen Berg besteigen.;Sie hat ihn aber begeistert.;Ist Tim auf einen Berg gestiegen?;Ja.;Nein.;B
 22;H;HJ;22;xab;Andreas, den übrigens Sonja während eines Urlaubs verspottet hat, will eine Oper komponieren.;Er will aber einer Rockband beitreten.;War Sonja im Urlaub?;Ja.;Nein.;A
 23;H;HJ;23;xnd;Rolf, den übrigens Sonja zur Abschlussfeier begleitet hat, will an einem Gesangswettbewerb teilnehmen.;Sie hat ihn doch sitzengelassen.;Ist Rolf Teil eines Reitturniers?;Ja.;Nein.;B
-24;H;HJ;24;xad;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben. ;Er will doch als Fotograf arbeiten.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
-25;H;DR;1;mi;Luisa hat das Gedicht ruckzuck vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein. ;B
-26;H;DR;2;mp;Elda hat die Kiste holterdipolter abgestellt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein. ;A
-27;H;DR;3;vi;Hopplahopp hat Anouk das Zelt  abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein. ;B
-28;H;DR;4;vp;Husch husch hat Lotta das Essen gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein. ;A
-29;H;DR;5;mi;Nina hat die Tür rums zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein. ;B
-30;H;DR;6;mp;Beate hat die Schokolade zappzarapp eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein. ;A
-31;H;DR;7;vi;Tipp tapp hat Celine hat das Haus leise verlassen. ;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein. ;B
-32;H;DR;8;vp;Zack hat Kathrin das Seil losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein. ;A
-33;H;DR;9;mi;Luis hat das Rätsel ruckzuck gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein. ;B
-34;H;DR;10;mp;Max hat den Schrank holterdipolter aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein. ;A
-35;H;DR;11;vi;Hopplahopp hat Torben die Wäsche aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein. ;B
-36;H;DR;12;vp;Husch husch hat Nico die Hausaufgaben gemacht. ;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein. ;A
-37;H;DR;13;mi;Tom hat das Garagentor rums geschlossen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein. ;B
-38;H;DR;14;mp;Lukas hat die Geschenke zappzarapp mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein. ;A
-39;H;DR;15;vi;Tipp tapp hat Finn den Flur durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein. ;B
-40;H;DR;16;vp;Zack hat Peter den Vorhang aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein. ;A
-41;H;DR;17;mi;Nadine hat die T-Shirts ruckzuck zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein. ;B
-42;H;DR;18;mp;Erik hat den Fensterladen holterdipolter verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein. ;A
-43;H;DR;19;vi;Hopplahopp hat Meike das Zimmer aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein. ;B
-44;H;DR;20;vp;Husch husch hat Elias das Souvenir eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein. ;A
-45;H;DR;21;mi;Maria hat die Box rums auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein. ;B
-46;H;DR;22;mp;Noah hat den Geldbeutel zappzarapp geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein. ;A
-47;H;DR;23;vi;Tipp tapp hat Elena das Schlafzimmer betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein. ;B
-48;H;DR;24;vp;Zack hat Felix den Hebel betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein. ;A
+24;H;HJ;24;xad;Karl, den übrigens Cindy während eines Vortrags schikaniert hat, will eine Modelkarriere anstreben.;Er will doch als Fotograf arbeiten.;War Cindy während eines Vortrags anwesend?;Ja.;Nein.;A
+25;H;DR;1;mi;Luisa hat das Gedicht ruckzuck vorgetragen.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luisa ein Lied vorgesungen? ;Ja.;Nein.;B
+26;H;DR;2;mp;Elda hat die Kiste holterdipolter abgestellt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Elda eine Kiste getragen?;Ja.;Nein.;A
+27;H;DR;3;vi;Hopplahopp hat Anouk das Zelt  abgebaut.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Anouk das Zelt aufgebaut?;Ja.;Nein.;B
+28;H;DR;4;vp;Husch husch hat Lotta das Essen gekocht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Lotta gekocht?;Ja.;Nein.;A
+29;H;DR;5;mi;Nina hat die Tür rums zugeworfen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Nina ein Fenster geschlossen?;Ja.;Nein.;B
+30;H;DR;6;mp;Beate hat die Schokolade zappzarapp eingesteckt.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Beate die Schokolade genommen?;Ja.;Nein.;A
+31;H;DR;7;vi;Tipp tapp hat Celine hat das Haus leise verlassen.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Celine die Gartenhütte verlassen?;Ja.;Nein.;B
+32;H;DR;8;vp;Zack hat Kathrin das Seil losgelassen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Katrin ein Seil gehalten?;Ja.;Nein.;A
+33;H;DR;9;mi;Luis hat das Rätsel ruckzuck gelöst.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Luis Sudoku gespielt?;Ja.;Nein.;B
+34;H;DR;10;mp;Max hat den Schrank holterdipolter aufgebaut.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Max einen Schrank aufgebaut?;Ja.;Nein.;A
+35;H;DR;11;vi;Hopplahopp hat Torben die Wäsche aufgehängt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Torben Wäsche gefaltet?;Ja.;Nein.;B
+36;H;DR;12;vp;Husch husch hat Nico die Hausaufgaben gemacht.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Nico die Hausaufgaben gemacht?;Ja.;Nein.;A
+37;H;DR;13;mi;Tom hat das Garagentor rums geschlossen.;Ja, das stimmt, aber es war doch nicht rums.;Hat Tom die Garage offen gelassen?;Ja.;Nein.;B
+38;H;DR;14;mp;Lukas hat die Geschenke zappzarapp mitgenommen.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Lukas Geschenke mitgenommen?;Ja.;Nein.;A
+39;H;DR;15;vi;Tipp tapp hat Finn den Flur durchquert.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Finn die Bibliothek durchquert?;Ja.;Nein.;B
+40;H;DR;16;vp;Zack hat Peter den Vorhang aufgezogen.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Peter den Vorhang geöffnet?;Ja.;Nein.;A
+41;H;DR;17;mi;Nadine hat die T-Shirts ruckzuck zusammengelegt.;Ja, das stimmt, aber es war doch nicht ruckzuck.;Hat Nadine Hosen zusammengelegt?;Ja.;Nein.;B
+42;H;DR;18;mp;Erik hat den Fensterladen holterdipolter verriegelt.;Nein, das stimmt nicht, es war doch nicht holterdipolter.;Hat Erik den Fensterladen verriegelt?;Ja.;Nein.;A
+43;H;DR;19;vi;Hopplahopp hat Meike das Zimmer aufgeräumt.;Ja, das stimmt, aber es war doch nicht hopplahopp.;Hat Meike das Zimmer geputzt?;Ja.;Nein.;B
+44;H;DR;20;vp;Husch husch hat Elias das Souvenir eingepackt.;Nein, das stimmt nicht, es war doch nicht husch husch.;Hat Elias ein Souvenir eingepackt?;Ja.;Nein.;A
+45;H;DR;21;mi;Maria hat die Box rums auf den Boden gesetzt.;Ja, das stimmt, aber es war doch nicht rums.;Hat Maria die Box vom Boden aufgehoben?;Ja.;Nein.;B
+46;H;DR;22;mp;Noah hat den Geldbeutel zappzarapp geklaut.;Nein, das stimmt nicht, es war doch nicht zappzarapp.;Hat Noah einen Geldbeutel geklaut?;Ja.;Nein.;A
+47;H;DR;23;vi;Tipp tapp hat Elena das Schlafzimmer betreten.;Ja, das stimmt, aber es war doch nicht tipp tapp.;Hat Elena die Küche betreten?;Ja.;Nein.;B
+48;H;DR;24;vp;Zack hat Felix den Hebel betätigt.;Nein, das stimmt nicht, es war doch nicht zack.;Hat Felix den Hebel betätigt?;Ja.;Nein.;A
 49;H;BH;1;gt;Marko möchte am Wochenende mit einer Gruppe von Leuten grillen. Genauer gesagt: Er wird eine große Feier veranstalten.;Nein, genauer fand ich die Information eigentlich nicht.;Will Marko etwas alleine unternehmen?;Ja.;Nein.;B
 50;H;BH;2;gs;Marie möchte im nächsten Jahr eine längere Reise machen. Genauer gesagt: Sie wird drei Monate reisen.;Nein, sie wird eigentlich länger unterwegs sein.;Will Marie verreisen?;Ja.;Nein.;A
 51;H;BH;3;gt;Tina kann heute Abend nicht. Genauer gesagt: Sie hat für heute Abend noch einiges vor.;Nein, genauer fand ich die Information eigentlich nicht.;Hat Tina vormittags Pläne?;Ja.;Nein.;B
