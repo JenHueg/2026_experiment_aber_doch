@@ -66,12 +66,9 @@ export default {
   text-align: left;
   font-family: Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.5;
 }
 
 .instruction {
-  margin-top: 30px;
-  padding: 12px 28px;
   font-size: 18px;
 }
 </style>
