@@ -4,6 +4,7 @@
 TRANSPARENCY
 This code was developed using the help of AI. The model used: 
 OpenAI.(2026). ChatGPT (GPT -5.6 Luna). [Large language model]. https.://chatgpt.com
+OpenAI.(2026). ChatGPT (GPT -6). [Large language model]. https.://chatgpt.com 
 
 PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER: 
 
@@ -108,47 +109,63 @@ PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER:
          COMPREHENSION QUESTION
          ================================================== -->
 
+    
     <div
       v-if="showComprehension"
       class="comprehension"
     >
 
       <!-- Question -->
-
       <p class="question">
         {{ currentItem.question }}
       </p>
 
-
-      <!-- response possibilties -->
-
-      <div class="comprehension-options">
-
-      <!-- Anwer A -->
-
+      <!-- Antwortmöglichkeiten: nur vor der Antwort anzeigen -->
+      <div
+        v-if="comprehensionAnswer === null"
+        class="comprehension-options"
+      >
         <button
           class="answer-button"
           @click="selectComprehensionAnswer('A')"
         >
-
           {{ currentItem.answer_A }}
-
         </button>
-
-      <!-- Answer B -->
 
         <button
           class="answer-button"
           @click="selectComprehensionAnswer('B')"
         >
-
           {{ currentItem.answer_B }}
-
         </button>
+      </div>
 
+      <!-- Feedback nur anzeigen, wenn es aktiviert ist -->
+      <div
+        v-if="
+          showComprehensionFeedback &&
+          showComprehensionFeedbackMessage
+        "
+        class="comprehension-feedback"
+      >
+        <p v-if="comprehensionCorrect">
+          Richtig!
+        </p>
+
+        <p v-else>
+          Leider falsch.
+        </p>
+
+        <button
+          class="answer-button"
+          @click="continueAfterComprehensionFeedback"
+        >
+          Weiter
+        </button>
       </div>
 
     </div>
+
 
   </div>
 
@@ -188,6 +205,15 @@ export default {
     comprehensionTrials: {
       type: Array,
       default: () => []
+    }, 
+
+    // ------------------------------------------------
+    // Needed for feedback for comprehension questions in practice trial
+    // ------------------------------------------------
+
+    showComprehensionFeedback: {
+    type: Boolean,
+    default: false
     }
 
   },
@@ -220,6 +246,7 @@ export default {
       showComprehension: false,
       comprehensionAnswer: null,
       comprehensionCorrect: null,
+      showComprehensionFeedbackMessage: false,
 
       // ------------------------------------------------
       // Data of current trial
@@ -655,12 +682,29 @@ export default {
         this.comprehensionCorrect
       )
 
+      //Feedback in practice trial
+
+      if (this.showComprehensionFeedback) {
+        this.showComprehensionFeedbackMessage = true
+        return
+      }
+
+
       // ------------------------------------------------
       // Comprehension Trial closed
       // ------------------------------------------------
 
       this.nextTrial()
 
+    },
+
+    // ==================================================
+    // CONTINUE AFTER FEEDBACK FOR COMPREHENSION QUESTION IN PRACTICE TRIAL 
+    // ================================================= 
+
+    continueAfterComprehensionFeedback() {
+      this.showComprehensionFeedbackMessage = false
+      this.nextTrial()
     },
 
     // ==================================================
@@ -839,6 +883,9 @@ export default {
 
         this.comprehensionCorrect =
           null
+
+        this.showComprehensionFeedbackMessage =
+          false
 
         this.currentTrialData =
           null
@@ -1258,6 +1305,10 @@ export default {
 .question {
   font-size: 1.3em;
   margin-bottom: 40px;
+}
+
+.comprehension-feedback {
+  font-size: 25px; 
 }
 
 .comprehension-options {

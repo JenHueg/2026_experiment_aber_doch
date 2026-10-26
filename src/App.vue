@@ -2,8 +2,9 @@
 
 <!-- ====================================
 TRANSPARENCY
-This code was developed using the help of AI. The model used: 
-OpenAI.(2026). ChatGPT (GPT -5.6 Luna). [Large language model]. https.://chatgpt.com
+This code was developed using the help of AI. The models used: 
+OpenAI.(2026). ChatGPT (GPT -5.6 Luna). [Large language model]. https.://chatgpt.com 
+OpenAI.(2026). ChatGPT (GPT -6). [Large language model]. https.://chatgpt.com 
 
 PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER: 
 
@@ -18,7 +19,16 @@ PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER:
          ================================================== -->
     <StartPage
       v-if="page === 'start'"
-      @next="page = 'instructions'"
+      @next="showConsentPage"
+    />
+
+    <!-- ==================================================
+        CONSENT PAGE
+        =================================================== -->
+
+    <ConsentPage
+      v-if="page === 'consent'"
+      @next="continueAfterConsent"
     />
 
     <!-- ==================================================
@@ -27,8 +37,33 @@ PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER:
 
     <InstructionPage
       v-if="page === 'instructions'"
-      @next="startExperiment"
+      @next="startPractice"
     />
+
+    <!-- ==================================================
+        PRACTICE 
+        =================================================== -->
+
+    <TrialPage
+      key="practice"
+      v-if="page === 'practice'"
+      :stimuli="practiceItems"
+      :totalTrials="practiceItems.length"
+      :startIndex="0"
+      :participantID="participantID"
+      :comprehensionTrials="comprehensionTrialsPractice"
+      :showComprehensionFeedback="true"
+      @finished="finishPractice"
+    />
+
+    <!-- ===================================================
+      SHOWING THAT MAIN EXPERIMENT IS STARTING
+      =================================================== -->
+
+      <ExperimentIntroPage
+      v-if="page === 'experimentIntro'"
+      @next="startExperiment"
+      />
 
     <!-- ==================================================
          BLOCK 1
@@ -93,8 +128,11 @@ PLEASE ADD HERE OTHER MODELS THAT ARE USED WHEN DEVELPING THIS CODE FURTHER:
 <script>
 
 import Papa from 'papaparse'
+import magpieConfig from './magpie.config.js'
 import StartPage from './components/StartPage.vue'
+import ConsentPage from './components/ConsentPage.vue'
 import InstructionPage from './components/InstructionPage.vue'
+import ExperimentIntroPage from './components/ExperimentIntroPage.vue'
 import TrialPage from './components/TrialPage.vue'
 import BreakPage from './components/BreakPage.vue'
 import DemographicsPage from './components/DemographicsPage.vue'
@@ -104,7 +142,9 @@ export default {
 
   components: {
     StartPage,
+    ConsentPage,
     InstructionPage,
+    ExperimentIntroPage,
     TrialPage,
     BreakPage,
     DemographicsPage,
@@ -119,6 +159,8 @@ export default {
   data() {
 
     return {
+      practiceItems: [],
+      comprehensionTrialsPractice: [2,3,5],
       page: 'start',
       block1: [],
       block2: [],
@@ -162,11 +204,109 @@ export default {
     }
   },
 
+  // ===================================
+  // PRESSING ESCAPE TO CANCEL THE EXPERIMENT
+  // ===================================
+
+  mounted() {
+  window.addEventListener('keydown', this.handleEscapeKey)
+  },
+
+  beforeDestroy() {
+  window.removeEventListener('keydown', this.handleEscapeKey)
+  },
+
   // ==================================================
   // METHODS
   // ==================================================
 
   methods: {
+
+    //======================================
+    // FOR CONSENT PAGE 
+    //======================================
+
+    showConsentPage() {
+    this.page = 'consent'
+    },
+
+    continueAfterConsent() {
+    this.page = 'instructions'
+    },
+
+    // =============================================
+    // STARTING PRACTICE TRIAL 
+    // ============================================= 
+
+    async startPractice() {
+      try {
+        const response = await fetch('./practice_stimuli.csv')
+
+        if (!response.ok) {
+          throw new Error('Übungs-CSV konnte nicht geladen werden.')
+        }
+
+        const csvText = await response.text()
+
+        const parsed = Papa.parse(csvText, {
+          header: true,
+          skipEmptyLines: true
+        })
+
+        if (parsed.errors.length > 0) {
+          console.error('Fehler beim Einlesen:', parsed.errors)
+        }
+
+        this.practiceItems = parsed.data.filter(
+          item =>
+            item.item &&
+            item.statement &&
+            item.denial
+        )
+
+        if (this.practiceItems.length !== 6) {
+          throw new Error(
+            `Es wurden ${this.practiceItems.length} statt 6 Übungsitems geladen.`
+          )
+        }
+
+        this.page = 'practice'
+
+      } catch (error) {
+        console.error('Fehler beim Laden der Übungsitems:', error)
+
+        alert(
+          'Die Übungsitems konnten nicht geladen werden. Bitte laden Sie die Seite neu.'
+        )
+      }
+    },
+
+    // ============================================
+    // GO TO MAIN EXPERIMENT AFTER PRACTICE 
+    // ===========================================
+
+    finishPractice() {
+    this.page = 'experimentIntro'
+    },
+
+    // =============================================
+    // RETURN TO PROLIFIC AFTER PRESSING ESCAPE
+    // =============================================
+
+    handleEscapeKey(event) {
+      if (event.key !== 'Escape') {
+      return
+      }
+      event.preventDefault()
+      const confirmAbort = window.confirm(
+      'Möchtest du das Experiment wirklich abbrechen? Nach dem Klick auf "OK" wirst Du automatisch zu Prolific geleitet.'
+      )
+      if (confirmAbort) {
+      window.location.replace(
+        'URL FOR PROLIFIC AFTER PRESSING ESC'
+      )
+      }
+    },
 
     // ==================================================
     // START EXPERIMENT
@@ -195,7 +335,7 @@ export default {
       // ==================================================
 
       const response =
-        await fetch('/stimuli.csv')
+        await fetch('./stimuli.csv')
 
       const csvText =
         await response.text()
@@ -611,7 +751,7 @@ export default {
     // DEMOGRAPHICS SAVE
     // ==================================================
 
-    saveDemographics(data) {
+    async saveDemographics(data) {
 
       console.log(
         'SAVE DEMOGRAPHICS'
@@ -622,166 +762,276 @@ export default {
         this.responses.length
       )
 
+       console.log('SCHRITT 1: Nach den ersten Logs')
+
       this.demographics =
         data
 
-      // ==================================================
-      // CSV HEADER
-      // ==================================================
+    // =====================================================
+    // ADD TRIAL DATA TO MAGPIE 
+    // =====================================================
 
-      const header = [
-        'participantID',
-        'item',
-        'list',
-        'condition',
-        'statement',
-        'denial',
-        'rating',
-        'reactionTimeMs',
-        'reactionTime',
-        'question',
-        'answer_A',
-        'answer_B',
-        'correct_answer',
-        'comprehensionAnswer',
-        'comprehensionCorrect',
-        'comprehensionReactionTimeMs',
-        'comprehensionReactionTime',
-        'dialectChoice',  
-        'federalState',
-        'age',
-        'gender',
-        'genderSelfDescription',
-        'nativeLanguage',
-        'experimentDuration'
-
-      ]
-
-      // ==================================================
-      // CSV ROWS
-      // ==================================================
-
-      const rows =
-
-        this.responses.map(
-          r => [
-            r.participantID,
-            r.item,
-            r.list,
-            r.condition,
-            r.statement,
-            r.denial,
-            r.rating,
-            r.reactionTimeMs,
-            r.reactionTime,
-            r.question,
-            r.answer_A,
-            r.answer_B,
-            r.correct_answer,
-            r.comprehensionAnswer,
-            r.comprehensionCorrect,
-            r.comprehensionReactionTimeMs,
-            r.comprehensionReactionTime,
-            this.demographics.dialectChoice || "NA",
-            this.demographics.federalState || "NA",
-            this.demographics.age || "NA",
-            this.demographics.gender || "NA",
-            this.demographics.genderSelfDescription || "NA",
-            this.demographics.nativeLanguage || "NA",
-            this.experimentDuration
-
-          ]
+    this.responses.forEach(
+      response => {
+        this.$magpie.addTrialData(
+          response
         )
-
-      // ==================================================
-      // CSV ESCAPE
-      // ==================================================
-
-      function csvEscape(value) {
-
-        const text =
-          String(
-            value ?? ''
-          )
-
-        return (
-
-          '"' +
-
-          text.replace(
-            /"/g,
-            '""'
-          ) +
-
-          '"'
-
-        )
-
       }
+    )
 
-      // ==================================================
-      // CSV CREATE
-      // ==================================================
+    // ====================================================
+    // ADD DEMOGRAPHICS AND EXPERIMENT DATA
+    // =====================================================
 
-      const csv = [
+    this.$magpie.addExpData({
 
-        header
-          .map(csvEscape)
-          .join(','),
+      participantID:
+        this.participantID,
 
-        ...rows.map(
+      selectedList:
+        this.selectedList,
 
-          row =>
-            row
-              .map(csvEscape)
-              .join(',')
+      dialectChoice:
+        this.demographics.dialectChoice || 'NA',
 
-        )
+      federalState:
+        this.demographics.federalState || 'NA',
 
-      ].join('\n')
+      age:
+        this.demographics.age || 'NA',
 
+      gender:
+        this.demographics.gender || 'NA',
 
-      // ==================================================
-      // CSV DOWNLOAD
-      // ==================================================
+      genderSelfDescription:
+        this.demographics.genderSelfDescription || 'NA',
 
-      const blob =
-        new Blob(
-          [csv],
-          {
-            type:
-              'text/csv;charset=utf-8;'
-          }
-        )
+      nativeLanguage:
+        this.demographics.nativeLanguage || 'NA',
 
-      const url =
-        URL.createObjectURL(
-          blob
-        )
+      experimentDuration:
+        this.experimentDuration
 
-      const a =
-        document.createElement(
-          'a'
-        )
+    })
 
-      a.href =
-        url
+    // ===================================================
+    // SEND DATA TO MAGPIE SERVER 
+    // ===================================================
 
-      a.download =
-        'responses.csv'
+    console.log(
+      'MAGPIE-METHODEN:',
+      Object.keys(this.$magpie)
+    )
 
-      a.click()
+    console.log(
+      'SUBMIT VERFÜGBAR:',
+      typeof this.$magpie.submit
+    )
+    
+    try {
+      console.log('VOR MAGPIE SUBMIT')
 
-      URL.revokeObjectURL(
-        url
+        console.log(
+  'SUBMISSION URL TYP:',
+  typeof this.$magpie.submissionUrl
+)
+
+console.log(
+  'SUBMISSION URL WERT:',
+  String(this.$magpie.submissionUrl)
+)
+
+console.log(
+  'SOCKET STATE TYP:',
+  typeof this.$magpie.socket?.state
+)
+
+console.log(
+  'SOCKET STATE WERT:',
+  String(this.$magpie.socket?.state)
+)
+
+      const submitResult = this.$magpie.submit()
+
+      console.log('SUBMIT RÜCKGABE:', submitResult)
+      console.log(
+        'PROMISE ERKANNT:',
+        typeof submitResult.then === 'function'
       )
+
+      submitResult
+        .then(() => {
+          console.log('MAGPIE SUBMIT ERFOLGREICH')
+          this.page = 'end'
+        })
+        .catch(error => {
+          console.error('MAGPIE SUBMIT FEHLGESCHLAGEN:', error)
+        })
+
+    } catch (error) {
+      console.error('FEHLER VOR ODER BEIM SUBMIT:', error)
+    }
+
+
+
+      // ==================================================
+      // CSV HEADER - as comment because only needed for creating csv locally
+      // ==================================================
+
+    //  const header = [
+    //    'participantID',
+    //    'item',
+    //    'list',
+    //    'condition',
+    //    'statement',
+    //    'denial',
+    //    'rating',
+    //    'reactionTimeMs',
+    //    'reactionTime',
+    //    'question',
+    //    'answer_A',
+    //    'answer_B',
+    //    'correct_answer',
+    //    'comprehensionAnswer',
+    //    'comprehensionCorrect',
+    //    'comprehensionReactionTimeMs',
+    //    'comprehensionReactionTime',
+    //    'dialectChoice',
+    //    'federalState',
+    //    'age',
+    //    'gender',
+    //    'genderSelfDescription',
+    //    'nativeLanguage',
+    //    'experimentDuration'
+
+    //  ]
+
+      // ==================================================
+      // CSV ROWS - as comment because only needed to create csv locally
+      // ==================================================
+
+    //  const rows =
+
+    //    this.responses.map(
+    //      r => [
+    //        r.participantID,
+    //        r.item,
+    //        r.list,
+    //        r.condition,
+    //        r.statement,
+    //        r.denial,
+    //        r.rating,
+    //        r.reactionTimeMs,
+    //        r.reactionTime,
+    //        r.question,
+    //        r.answer_A,
+    //        r.answer_B,
+    //        r.correct_answer,
+    //        r.comprehensionAnswer,
+    //        r.comprehensionCorrect,
+    //        r.comprehensionReactionTimeMs,
+    //        r.comprehensionReactionTime,
+    //        this.demographics.dialectChoice || "NA",
+    //        this.demographics.federalState || "NA",
+    //        this.demographics.age || "NA",
+    //        this.demographics.gender || "NA",
+    //        this.demographics.genderSelfDescription || "NA",
+    //        this.demographics.nativeLanguage || "NA",
+    //        this.experimentDuration
+
+    //      ]
+    //    )
+
+      // ==================================================
+      // CSV ESCAPE - as comment because only needed to create csv locally
+      // ==================================================
+
+    //  function csvEscape(value) {
+
+    //    const text =
+    //      String(
+    //        value ?? ''
+    //      )
+
+    //    return (
+
+    //      '"' +
+
+    //      text.replace(
+    //        /"/g,
+    //        '""'
+    //      ) +
+
+    //      '"'
+
+    //    )
+
+    //  }
+
+      // ==================================================
+      // CSV CREATE - as comment because only needed to create csv locally
+      // ==================================================
+
+    //  const csv = [
+
+    //    header
+    //      .map(csvEscape)
+    //      .join(','),
+
+    //    ...rows.map(
+
+    //      row =>
+    //        row
+    //          .map(csvEscape)
+    //          .join(',')
+
+    //    )
+
+    //  ].join('\n')
+
+
+      // ==================================================
+      // CSV DOWNLOAD LOCALLY (!!) 
+      // As comment because this is only for local test, otherwise magpie serve app is used to store result
+      // ==================================================
+
+    //  const blob =
+    //    new Blob(
+    //      [csv],
+    //     {
+    //        type:
+    //          'text/csv;charset=utf-8;'
+    //     }
+     //   )
+
+    //  const url =
+    //    URL.createObjectURL(
+    //      blob
+     //   )
+
+    //  const a =
+    //    document.createElement(
+    //      'a'
+    //    )
+
+    //  a.href =
+    //    url
+
+    //  a.download =
+    //    'responses.csv'
+
+    //  a.click()
+
+    //  URL.revokeObjectURL(
+    //    url
+    //  )
 
       // ==================================================
       // END
       // ==================================================
 
-      this.page =
-        'end'
+      // this.page =
+      //  'end'
 
     }
 

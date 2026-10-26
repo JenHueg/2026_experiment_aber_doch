@@ -1,3 +1,8 @@
+# This file was costumized with the help of ChatGPT -5.6 Luna Model (2026), a large language model developed by openAI. Previous version 
+# lead to building error when pushing to GitHub. The following was changed: 
+# The npm cache from the GitHub Actions workflow was removed to ensure that dependencies were installed fresh 
+# instead of potentially using corrupted cached files. 
+# `npm install` changed to `npm ci`, which performs a clean and reproducible installation based on the `package-lock.json`.
 
 name: Build and Deploy
 on:
@@ -36,24 +41,24 @@ jobs:
       - name: Set up npm ${{ steps.versions.outputs.npmVersion }}
         run: npm i -g npm@"${{ steps.versions.outputs.npmVersion }}"
 
-      - name: Cache node modules
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+    #  - name: Cache node modules
+    #    uses: actions/cache@v4
+    #    env:
+    #      cache-name: cache-node-modules
+    #    with:
+    #      path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+    #      key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+    #      restore-keys: |
+     #       ${{ runner.os }}-build-${{ env.cache-name }}-
+     #       ${{ runner.os }}-build-
+     #       ${{ runner.os }}-
 
       - name: Install and Build 🔧
         env:
           REPO_NAME: ${{ github.event.repository.name }}
         run: |
           cd ${{matrix.folder}}
-          npm install
+          npm ci
           npm run build
 
       - name: Create branch
