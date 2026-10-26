@@ -61,11 +61,11 @@ export default {
 <style scoped>
 .page {
   max-width: 850px;
-  margin: 30px auto;
-  padding: 0 25px;
+  margin-top: 30px;
+  padding: 12px 28px;
   text-align: left;
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
