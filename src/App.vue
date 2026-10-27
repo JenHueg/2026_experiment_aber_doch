@@ -209,6 +209,9 @@ export default {
   // ===================================
 
   mounted() {
+
+  this.experimentStartTime = Date.now()
+
   window.addEventListener('keydown', this.handleEscapeKey)
   },
 
@@ -322,13 +325,6 @@ export default {
       // ------------------------------------------------
 
       this.participantID = crypto.randomUUID()
-
-      // ------------------------------------------------
-      // STARTING TIME
-      // ------------------------------------------------
-
-      this.experimentStartTime =
-        Date.now()
 
       // ==================================================
       // LOAD CSV
@@ -753,6 +749,16 @@ export default {
 
     async saveDemographics(data) {
 
+      // ------------------------------------------------
+      // Time of whole experiment
+      // ------------------------------------------------
+
+      const durationMs =
+        Date.now() - this.experimentStartTime
+
+      this.experimentDuration =
+        this.formatDuration(durationMs)
+
       console.log(
         'SAVE DEMOGRAPHICS'
       )
@@ -810,7 +816,10 @@ export default {
         this.demographics.nativeLanguage || 'NA',
 
       experimentDuration:
-        this.experimentDuration
+        this.experimentDuration,
+
+        experimentDurationMs:
+        durationMs
 
     })
 
